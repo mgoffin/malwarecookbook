@@ -1,0 +1,17 @@
+Script
+    _JBSetSystem("xp")
+    _JBStartAnalysis()
+    _JBStartSniffer()
+    
+    ; copy the submitted file to system directory
+    $NewFile = @SystemDir & "/" & "malware.exe"
+    FileCopy("c:\malware.exe", $NewFile, 1)
+    
+    ; execute the file from its new path
+    Run($NewFile, @TempDir, @SW_HIDE)
+    
+    Sleep(120)
+    _JBStopSniffer()
+    _JBStopAnalysis()
+EndScript
+

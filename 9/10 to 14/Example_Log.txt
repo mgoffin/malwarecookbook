@@ -1,0 +1,511 @@
+00000000	0.00000000	*	
+00000001	0.00000000	* Preservation Driver Loaded	
+00000002	0.00000503	*	
+00000003	0.00019500	Hooking ZwTerminateProcess.	
+00000004	0.00019583	Hooking ZwSetInformationFile.	
+00000005	0.00019583	Hooking ZwDeleteFile.	
+00000006	0.00020086	Hooking ZwLoadDriver.	
+00000007	0.00020086	Hooking ZwSetSystemInformation.	
+00000008	0.00020394	Registering PsSetLoadImageNotifyRoutine.	
+00000009	0.00020505	Registering PsSetCreateProcessNotifyRoutine.	
+00000010	0.00020589	Registering PsSetCreateThreadNotifyRoutine.	
+00000011	1.99862134	[PROCESS TERMINATE] preservation.ex (PID:1340) terminating preservation.ex (PID 1340)	
+00000012	4.28231096	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log	
+00000013	4.28273106	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edbtmp.log	
+00000014	4.28281593	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edbtmp.log	
+00000015	4.28330183	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edb0011D.log	
+00000016	4.28406811	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edb0011E.log	
+00000017	4.78011131	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\tmp.edb	
+00000018	4.78121567	[FILE DELETE] wuauclt.exe (PID:1952) deleting file \WINDOWS\SoftwareDistribution\DataStore\Logs\edbtmp.log	
+00000019	5.86221313	[PROCESS TERMINATE] wuauclt.exe (PID:1952) terminating wuauclt.exe (PID 1952)	
+00000020	11.57933235	[PROCESS START] explorer.exe (PID:1672) started fetch_10d8c4282 (PID 2776)	
+00000021	11.57944489	[THREAD START] explorer.exe (PID:1672) started thread (TID 2780)	
+00000022	11.58178902	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \Device\HarddiskVolume1\Documents and Settings\Administrator\Desktop\fetch_10d8c42825bc32c1a84f48d5ef931ad43673692b.exe	
+00000023	11.58191204	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \SystemRoot\System32\ntdll.dll	
+00000024	11.58274555	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\kernel32.dll	
+00000025	11.58607101	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\user32.dll	
+00000026	11.58627510	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\gdi32.dll	
+00000027	11.58910847	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\apphelp.dll	
+00000028	11.61144447	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\version.dll	
+00000029	11.61275387	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\advapi32.dll	
+00000030	11.61310959	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\rpcrt4.dll	
+00000031	11.61345387	[IMAGE LOAD] fetch_10d8c4282 (PID:2776) loaded \WINDOWS\system32\secur32.dll	
+00000032	11.61572170	[PROCESS START] fetch_10d8c4282 (PID:2776) started notepad.exe (PID 1784)	
+00000033	11.61579514	[THREAD START] fetch_10d8c4282 (PID:2776) started thread (TID 1632)	
+00000034	11.62234116	[IMAGE LOAD] notepad.exe (PID:1784) loaded \Device\HarddiskVolume1\WINDOWS\system32\notepad.exe	
+00000035	11.62251472	[IMAGE LOAD] notepad.exe (PID:1784) loaded \SystemRoot\System32\ntdll.dll	
+00000036	11.65097237	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\kernel32.dll	
+00000037	11.65210533	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\comdlg32.dll	
+00000038	11.65234566	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\advapi32.dll	
+00000039	11.65266800	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\rpcrt4.dll	
+00000040	11.65300751	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\secur32.dll	
+00000041	11.65422058	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000042	11.65441799	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\msvcrt.dll	
+00000043	11.65483952	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\gdi32.dll	
+00000044	11.65517044	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\user32.dll	
+00000045	11.65564919	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\shlwapi.dll	
+00000046	11.65619659	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\shell32.dll	
+00000047	11.65700531	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\winspool.drv	
+00000048	11.65764523	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\shimeng.dll	
+00000049	11.65901470	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000050	11.65945244	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\winmm.dll	
+00000051	11.65979290	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\ole32.dll	
+00000052	11.66017246	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\oleaut32.dll	
+00000053	11.66057205	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\msacm32.dll	
+00000054	11.66101646	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\version.dll	
+00000055	11.66129208	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\userenv.dll	
+00000056	11.66168976	[IMAGE LOAD] notepad.exe (PID:1784) loaded \WINDOWS\system32\uxtheme.dll	
+00000057	11.73652363	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 1628)	
+00000058	11.73843575	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2744)	
+00000059	11.89894485	[PROCESS START] fetch_10d8c4282 (PID:2776) started cmd.exe (PID 2812)	
+00000060	11.89902496	[THREAD START] fetch_10d8c4282 (PID:2776) started thread (TID 2820)	
+00000061	11.89947701	[PROCESS TERMINATE] notepad.exe (PID:1784) terminating notepad.exe (PID 1784)	
+00000062	11.89969635	[IMAGE LOAD] cmd.exe (PID:2812) loaded \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe	
+00000063	11.89981842	[IMAGE LOAD] cmd.exe (PID:2812) loaded \SystemRoot\System32\ntdll.dll	
+00000064	11.90307045	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\kernel32.dll	
+00000065	11.90791225	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\msvcrt.dll	
+00000066	11.90823936	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\user32.dll	
+00000067	11.90841866	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\gdi32.dll	
+00000068	11.90900040	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\shimeng.dll	
+00000069	11.91014385	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000070	11.91038990	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\advapi32.dll	
+00000071	11.91069412	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\rpcrt4.dll	
+00000072	11.91102219	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\secur32.dll	
+00000073	11.91143322	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\winmm.dll	
+00000074	11.91176605	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\ole32.dll	
+00000075	11.91215801	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\oleaut32.dll	
+00000076	11.91258430	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\msacm32.dll	
+00000077	11.91293335	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\version.dll	
+00000078	11.91321468	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\shell32.dll	
+00000079	11.91369724	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\shlwapi.dll	
+00000080	11.91466331	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\userenv.dll	
+00000081	11.91503811	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\uxtheme.dll	
+00000082	11.92276478	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000083	11.92714787	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\comctl32.dll	
+00000084	11.93195152	[IMAGE LOAD] cmd.exe (PID:2812) loaded \WINDOWS\system32\apphelp.dll	
+00000085	11.94389725	[PROCESS START] cmd.exe (PID:2812) started sc.exe (PID 2808)	
+00000086	11.94400215	[THREAD START] cmd.exe (PID:2812) started thread (TID 2800)	
+00000087	11.94423771	[IMAGE LOAD] sc.exe (PID:2808) loaded \Device\HarddiskVolume1\WINDOWS\system32\sc.exe	
+00000088	11.94435501	[IMAGE LOAD] sc.exe (PID:2808) loaded \SystemRoot\System32\ntdll.dll	
+00000089	11.94519997	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\kernel32.dll	
+00000090	11.94647598	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\msvcrt.dll	
+00000091	11.94751835	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\advapi32.dll	
+00000092	11.94791698	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\rpcrt4.dll	
+00000093	11.94828606	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\secur32.dll	
+00000094	11.94884777	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\shimeng.dll	
+00000095	11.94995308	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000096	11.95038795	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\user32.dll	
+00000097	11.95056438	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\gdi32.dll	
+00000098	11.95116329	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\winmm.dll	
+00000099	11.95149899	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\ole32.dll	
+00000100	11.95189762	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\oleaut32.dll	
+00000101	11.95228863	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\msacm32.dll	
+00000102	11.95267487	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\version.dll	
+00000103	11.95290470	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\shell32.dll	
+00000104	11.95342064	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\shlwapi.dll	
+00000105	11.95397663	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\userenv.dll	
+00000106	11.95431614	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\uxtheme.dll	
+00000107	11.96138191	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000108	11.96506786	[IMAGE LOAD] sc.exe (PID:2808) loaded \WINDOWS\system32\comctl32.dll	
+00000109	12.04152107	[PROCESS TERMINATE] sc.exe (PID:2808) terminating sc.exe (PID 2808)	
+00000110	16.88943672	[PROCESS START] fetch_10d8c4282 (PID:2776) started cmd.exe (PID 2804)	
+00000111	16.88961983	[THREAD START] fetch_10d8c4282 (PID:2776) started thread (TID 980)	
+00000112	16.88984108	[IMAGE LOAD] cmd.exe (PID:2804) loaded \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe	
+00000113	16.88995743	[IMAGE LOAD] cmd.exe (PID:2804) loaded \SystemRoot\System32\ntdll.dll	
+00000114	16.89293098	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\kernel32.dll	
+00000115	16.89630318	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\msvcrt.dll	
+00000116	16.89662552	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\user32.dll	
+00000117	16.89682388	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\gdi32.dll	
+00000118	16.89796257	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\shimeng.dll	
+00000119	16.89899063	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000120	16.89922523	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\advapi32.dll	
+00000121	16.89950180	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\rpcrt4.dll	
+00000122	16.89982033	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\secur32.dll	
+00000123	16.90021133	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\winmm.dll	
+00000124	16.90055084	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\ole32.dll	
+00000125	16.90094376	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\oleaut32.dll	
+00000126	16.90130424	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\msacm32.dll	
+00000127	16.90161705	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\version.dll	
+00000128	16.90184402	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\shell32.dll	
+00000129	16.90225410	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\shlwapi.dll	
+00000130	16.90279388	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\userenv.dll	
+00000131	16.90315819	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\uxtheme.dll	
+00000132	16.91005898	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000133	16.91372108	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\comctl32.dll	
+00000134	16.92790985	[IMAGE LOAD] cmd.exe (PID:2804) loaded \WINDOWS\system32\apphelp.dll	
+00000135	16.93305206	[PROCESS START] cmd.exe (PID:2804) started taskkill.exe (PID 2836)	
+00000136	16.93316078	[THREAD START] cmd.exe (PID:2804) started thread (TID 2840)	
+00000137	16.93337822	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \Device\HarddiskVolume1\WINDOWS\system32\taskkill.exe	
+00000138	16.93350983	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \SystemRoot\System32\ntdll.dll	
+00000139	16.93420601	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\kernel32.dll	
+00000140	16.93531418	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\msvcrt.dll	
+00000141	16.93594551	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\advapi32.dll	
+00000142	16.93655205	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\rpcrt4.dll	
+00000143	16.93684959	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\secur32.dll	
+00000144	16.93725395	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\user32.dll	
+00000145	16.93747139	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\gdi32.dll	
+00000146	16.93797874	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\mpr.dll	
+00000147	16.93852234	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\ole32.dll	
+00000148	16.93899155	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\oleaut32.dll	
+00000149	16.93944168	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\ws2_32.dll	
+00000150	16.93974686	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\ws2help.dll	
+00000151	16.94036484	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wbem\framedyn.dll	
+00000152	16.94088745	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\netapi32.dll	
+00000153	16.94135857	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\dbghelp.dll	
+00000154	16.94187927	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\version.dll	
+00000155	16.94258690	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\shimeng.dll	
+00000156	16.94361496	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000157	16.94390869	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\winmm.dll	
+00000158	16.94425774	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\msacm32.dll	
+00000159	16.94458580	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\shell32.dll	
+00000160	16.94503403	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\shlwapi.dll	
+00000161	16.94559479	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\userenv.dll	
+00000162	16.94595337	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\uxtheme.dll	
+00000163	16.95535278	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000164	16.95896149	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\comctl32.dll	
+00000165	16.96499062	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\xpsp2res.dll	
+00000166	16.96646881	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\clbcatq.dll	
+00000167	16.96683693	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\comres.dll	
+00000168	16.96941185	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wbem\wbemprox.dll	
+00000169	16.97010803	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wbem\wbemcomn.dll	
+00000170	16.97134209	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\winsta.dll	
+00000171	16.97328377	[THREAD START] taskkill.exe (PID:2836) started thread (TID 2844)	
+00000172	16.97380257	[THREAD START] taskkill.exe (PID:2836) started thread (TID 2848)	
+00000173	16.97721672	[THREAD START] taskkill.exe (PID:2836) started thread (TID 1596)	
+00000174	16.97912025	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wbem\wbemsvc.dll	
+00000175	16.98575020	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wbem\fastprox.dll	
+00000176	16.98625374	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\msvcp60.dll	
+00000177	16.98744202	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\ntdsapi.dll	
+00000178	16.98773575	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\dnsapi.dll	
+00000179	16.98841858	[IMAGE LOAD] taskkill.exe (PID:2836) loaded \WINDOWS\system32\wldap32.dll	
+00000180	16.99053192	[THREAD START] svchost.exe (PID:1076) started thread (TID 1388)	
+00000181	16.99308205	[THREAD START] svchost.exe (PID:1076) started thread (TID 2864)	
+00000182	17.00526810	[THREAD START] lsass.exe (PID:748) started thread (TID 2868)	
+00000183	17.01495934	[PROCESS START] svchost.exe (PID:904) started wmiprvse.exe (PID 2872)	
+00000184	17.01508522	[THREAD START] svchost.exe (PID:904) started thread (TID 2876)	
+00000185	17.01655960	[THREAD START] taskkill.exe (PID:2836) started thread (TID 2880)	
+00000186	17.01844025	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \Device\HarddiskVolume1\WINDOWS\system32\wbem\wmiprvse.exe	
+00000187	17.01857376	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \SystemRoot\System32\ntdll.dll	
+00000188	17.03885841	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\kernel32.dll	
+00000189	17.04009438	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\msvcrt.dll	
+00000190	17.04045868	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\advapi32.dll	
+00000191	17.04076004	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\rpcrt4.dll	
+00000192	17.04112244	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\secur32.dll	
+00000193	17.04158020	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\user32.dll	
+00000194	17.04192924	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\gdi32.dll	
+00000195	17.04254150	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\wbemcomn.dll	
+00000196	17.04286575	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\ole32.dll	
+00000197	17.04331207	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\oleaut32.dll	
+00000198	17.04371834	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\fastprox.dll	
+00000199	17.04403305	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\msvcp60.dll	
+00000200	17.04459763	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\ntdsapi.dll	
+00000201	17.04482651	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\dnsapi.dll	
+00000202	17.04521370	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\ws2_32.dll	
+00000203	17.04554749	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\ws2help.dll	
+00000204	17.04592896	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\netapi32.dll	
+00000205	17.04640770	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wldap32.dll	
+00000206	17.04676819	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\ncobjapi.dll	
+00000207	17.04739761	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\shimeng.dll	
+00000208	17.04843903	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000209	17.04880333	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\winmm.dll	
+00000210	17.04919434	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\msacm32.dll	
+00000211	17.04951859	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\version.dll	
+00000212	17.04982567	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\shell32.dll	
+00000213	17.05028534	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\shlwapi.dll	
+00000214	17.05080032	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\userenv.dll	
+00000215	17.05122948	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\uxtheme.dll	
+00000216	17.06168365	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000217	17.06612396	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\comctl32.dll	
+00000218	17.07286453	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\xpsp2res.dll	
+00000219	17.07416916	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 2884)	
+00000220	17.07487297	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\clbcatq.dll	
+00000221	17.07521439	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\comres.dll	
+00000222	17.07670403	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\wbemprox.dll	
+00000223	17.07754898	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 2888)	
+00000224	17.07811546	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 2892)	
+00000225	17.08080864	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\wbemsvc.dll	
+00000226	17.08656693	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 1684)	
+00000227	17.08932686	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 2896)	
+00000228	17.10013008	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\wmiutils.dll	
+00000229	17.10950279	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\cimwin32.dll	
+00000230	17.12568855	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\wbem\framedyn.dll	
+00000231	17.12650108	[IMAGE LOAD] wmiprvse.exe (PID:2872) loaded \WINDOWS\system32\setupapi.dll	
+00000232	17.16863251	[THREAD START] wmiprvse.exe (PID:2872) started thread (TID 2900)	
+00000233	17.19931412	[PROCESS TERMINATE] taskkill.exe (PID:2836) terminating taskkill.exe (PID 2836)	
+00000234	17.73545074	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2904)	
+00000235	17.73625183	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2908)	
+00000236	19.80219078	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000237	19.82154083	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000238	19.83830833	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\awt.dll	
+00000239	19.83859825	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000240	19.84189987	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000241	19.84346581	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\client\jvm.dll	
+00000242	19.84364891	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000243	19.84788704	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000244	19.84951019	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\dcpr.dll	
+00000245	19.84970093	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000246	19.85160828	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000247	19.85330963	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\deploy.dll	
+00000248	19.85350800	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000249	19.85540009	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000250	19.85687065	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\fontmanager.dll	
+00000251	19.85704613	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000252	19.85885429	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000253	19.86021996	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\hpi.dll	
+00000254	19.86039162	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000255	19.86202812	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000256	19.86336708	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.dll	
+00000257	19.86357307	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000258	19.86525917	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000259	19.86694908	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.exe	
+00000260	19.86712837	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000261	19.86888313	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000262	19.87035751	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jp2native.dll	
+00000263	19.87054253	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000264	19.87195396	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000265	19.87335968	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jpeg.dll	
+00000266	19.87354088	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000267	19.87512970	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000268	19.87656403	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000269	19.87847900	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000270	19.87998390	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\net.dll	
+00000271	19.88024902	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000272	19.88190079	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000273	19.88328552	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\nio.dll	
+00000274	19.88347244	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000275	19.88509178	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000276	19.88656616	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\regutils.dll	
+00000277	19.88675690	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000278	19.88875198	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000279	19.89019775	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\verify.dll	
+00000280	19.89040375	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000281	19.89200020	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000282	19.89346886	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\zip.dll	
+00000283	19.89748383	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000284	19.90231895	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000285	21.88956451	[PROCESS START] fetch_10d8c4282 (PID:2776) started cmd.exe (PID 2912)	
+00000286	21.88973045	[THREAD START] fetch_10d8c4282 (PID:2776) started thread (TID 2916)	
+00000287	21.89153290	[IMAGE LOAD] cmd.exe (PID:2912) loaded \Device\HarddiskVolume1\WINDOWS\system32\cmd.exe	
+00000288	21.89166451	[IMAGE LOAD] cmd.exe (PID:2912) loaded \SystemRoot\System32\ntdll.dll	
+00000289	21.89232826	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\kernel32.dll	
+00000290	21.89660263	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\msvcrt.dll	
+00000291	21.89689827	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\user32.dll	
+00000292	21.89702034	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\gdi32.dll	
+00000293	21.89751625	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\shimeng.dll	
+00000294	21.89842987	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000295	21.89870644	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\advapi32.dll	
+00000296	21.89895248	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\rpcrt4.dll	
+00000297	21.89923096	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\secur32.dll	
+00000298	21.89959717	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\winmm.dll	
+00000299	21.89989090	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\ole32.dll	
+00000300	21.90024757	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\oleaut32.dll	
+00000301	21.90055466	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\msacm32.dll	
+00000302	21.90083122	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\version.dll	
+00000303	21.90100288	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\shell32.dll	
+00000304	21.90136147	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\shlwapi.dll	
+00000305	21.90182495	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\userenv.dll	
+00000306	21.90213203	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\uxtheme.dll	
+00000307	21.90944672	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000308	21.91339111	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\comctl32.dll	
+00000309	21.91707230	[IMAGE LOAD] cmd.exe (PID:2912) loaded \WINDOWS\system32\apphelp.dll	
+00000310	21.91953850	[PROCESS START] cmd.exe (PID:2912) started taskkill.exe (PID 2920)	
+00000311	21.91963005	[THREAD START] cmd.exe (PID:2912) started thread (TID 2924)	
+00000312	21.91984940	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \Device\HarddiskVolume1\WINDOWS\system32\taskkill.exe	
+00000313	21.91996574	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \SystemRoot\System32\ntdll.dll	
+00000314	21.92058754	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\kernel32.dll	
+00000315	21.92164230	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\msvcrt.dll	
+00000316	21.92207527	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\advapi32.dll	
+00000317	21.92233467	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\rpcrt4.dll	
+00000318	21.92263603	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\secur32.dll	
+00000319	21.92304039	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\user32.dll	
+00000320	21.92319489	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\gdi32.dll	
+00000321	21.92365265	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\mpr.dll	
+00000322	21.92394257	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\ole32.dll	
+00000323	21.92432594	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\oleaut32.dll	
+00000324	21.92623520	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\ws2_32.dll	
+00000325	21.92654037	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\ws2help.dll	
+00000326	21.92690086	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wbem\framedyn.dll	
+00000327	21.92727852	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\netapi32.dll	
+00000328	21.92773438	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\dbghelp.dll	
+00000329	21.92804718	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\version.dll	
+00000330	21.92849350	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\shimeng.dll	
+00000331	21.92955208	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000332	21.92984772	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\winmm.dll	
+00000333	21.93021011	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\msacm32.dll	
+00000334	21.93055725	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\shell32.dll	
+00000335	21.93104362	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\shlwapi.dll	
+00000336	21.93158340	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\userenv.dll	
+00000337	21.93195343	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\uxtheme.dll	
+00000338	21.94125557	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000339	21.94478607	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\comctl32.dll	
+00000340	21.95004082	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\xpsp2res.dll	
+00000341	21.95105743	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\clbcatq.dll	
+00000342	21.95133591	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\comres.dll	
+00000343	21.95281601	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wbem\wbemprox.dll	
+00000344	21.95307541	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wbem\wbemcomn.dll	
+00000345	21.95369720	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\winsta.dll	
+00000346	21.95508003	[THREAD START] taskkill.exe (PID:2920) started thread (TID 2928)	
+00000347	21.95546532	[THREAD START] taskkill.exe (PID:2920) started thread (TID 2932)	
+00000348	21.95738792	[THREAD START] taskkill.exe (PID:2920) started thread (TID 2936)	
+00000349	21.95791245	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wbem\wbemsvc.dll	
+00000350	21.96014023	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wbem\fastprox.dll	
+00000351	21.96038628	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\msvcp60.dll	
+00000352	21.96094704	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\ntdsapi.dll	
+00000353	21.96117783	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\dnsapi.dll	
+00000354	21.96176720	[IMAGE LOAD] taskkill.exe (PID:2920) loaded \WINDOWS\system32\wldap32.dll	
+00000355	21.97764778	[THREAD START] taskkill.exe (PID:2920) started thread (TID 2940)	
+00000356	21.98332787	[PROCESS TERMINATE] taskkill.exe (PID:2920) terminating taskkill.exe (PID 2920)	
+00000357	22.73478127	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2944)	
+00000358	22.73544121	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2948)	
+00000359	46.88810349	[THREAD START] wuauclt.exe (PID:3236) started thread (TID 2952)	
+00000360	51.47555542	[PROCESS START] fetch_10d8c4282 (PID:2776) started rundll32.exe (PID 2956)	
+00000361	51.47576141	[THREAD START] fetch_10d8c4282 (PID:2776) started thread (TID 2972)	
+00000362	51.47648621	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \Device\HarddiskVolume1\WINDOWS\system32\rundll32.exe	
+00000363	51.47662354	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \SystemRoot\System32\ntdll.dll	
+00000364	51.47743225	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\kernel32.dll	
+00000365	51.47936249	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\msvcrt.dll	
+00000366	51.47985840	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\gdi32.dll	
+00000367	51.48025131	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\user32.dll	
+00000368	51.48072052	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\imagehlp.dll	
+00000369	51.48130035	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\shimeng.dll	
+00000370	51.48617554	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\AppPatch\AcGenral.dll	
+00000371	51.48681259	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\advapi32.dll	
+00000372	51.48732758	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\rpcrt4.dll	
+00000373	51.48773575	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\secur32.dll	
+00000374	51.48844910	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\winmm.dll	
+00000375	51.48896027	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\ole32.dll	
+00000376	51.48956680	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\oleaut32.dll	
+00000377	51.49007416	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\msacm32.dll	
+00000378	51.49053955	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\version.dll	
+00000379	51.49081421	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\shell32.dll	
+00000380	51.49131012	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\shlwapi.dll	
+00000381	51.49199677	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\userenv.dll	
+00000382	51.49244308	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\uxtheme.dll	
+00000383	51.50239563	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll	
+00000384	51.50626755	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\comctl32.dll	
+00000385	51.51498413	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\tete458015t.dll	
+00000386	51.52475739	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\sfc.dll	
+00000387	51.52511978	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\sfc_os.dll	
+00000388	51.52588272	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\wintrust.dll	
+00000389	51.52616882	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\crypt32.dll	
+00000390	51.52655792	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\msasn1.dll	
+00000391	51.53802109	[FILE DELETE] rundll32.exe (PID:2956) deleting file \WINDOWS\system32\drivers\asyncmac.sys	
+00000392	51.54032516	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000393	51.56346512	[DRIVER LOAD] services.exe (PID:736) loading driver \Registry\Machine\System\CurrentControlSet\Services\AsyncMac	
+00000394	51.58267212	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000395	51.60544586	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\awt.dll	
+00000396	51.60577393	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000397	51.60924530	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000398	51.61077881	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\client\jvm.dll	
+00000399	51.61095428	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000400	51.61778641	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000401	51.61980820	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\dcpr.dll	
+00000402	51.61999893	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000403	51.62215042	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000404	51.62369537	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\deploy.dll	
+00000405	51.62387085	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000406	51.62552261	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000407	51.62731552	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\fontmanager.dll	
+00000408	51.62751389	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000409	51.62938690	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000410	51.63085556	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\hpi.dll	
+00000411	51.63102722	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000412	51.63259506	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000413	51.63392639	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.dll	
+00000414	51.63409805	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000415	51.63575745	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000416	51.63756943	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.exe	
+00000417	51.63778687	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000418	51.63966370	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000419	51.64112091	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jp2native.dll	
+00000420	51.64129257	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000421	51.64268112	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000422	51.64409637	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jpeg.dll	
+00000423	51.64426804	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000424	51.64589310	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000425	51.64770126	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000426	51.65118027	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000427	51.65277863	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\net.dll	
+00000428	51.65296555	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000429	51.65474701	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000430	51.65625000	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\nio.dll	
+00000431	51.65645981	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000432	51.65817261	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000433	51.65979004	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\regutils.dll	
+00000434	51.66002274	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000435	51.66189957	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000436	51.66341400	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\verify.dll	
+00000437	51.66359329	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000438	51.66517258	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000439	51.66665268	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\zip.dll	
+00000440	51.66683578	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000441	51.66845322	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000442	51.66897583	[THREAD START] svchost.exe (PID:1076) started thread (TID 2976)	
+00000443	51.74086761	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2980)	
+00000444	51.74214554	[THREAD START] ProcessHacker.e (PID:1528) started thread (TID 2984)	
+00000445	52.62688828	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\sfc.dll	
+00000446	52.62713242	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\sfc_os.dll	
+00000447	52.62742996	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\wintrust.dll	
+00000448	52.62758636	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\crypt32.dll	
+00000449	52.62778091	[IMAGE LOAD] rundll32.exe (PID:2956) loaded \WINDOWS\system32\msasn1.dll	
+00000450	52.62960815	[FILE DELETE] rundll32.exe (PID:2956) deleting file \WINDOWS\system32\drivers\asyncmac.sys	
+00000451	52.63745117	[DRIVER LOAD] services.exe (PID:736) loading driver \Registry\Machine\System\CurrentControlSet\Services\AsyncMac	
+00000452	53.65200424	[PROCESS TERMINATE] rundll32.exe (PID:2956) terminating rundll32.exe (PID 2956)	
+00000453	81.67011261	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000454	81.69075012	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000455	81.70497894	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\awt.dll	
+00000456	81.70541382	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000457	81.70938110	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000458	81.71110535	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\client\jvm.dll	
+00000459	81.71131897	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000460	81.71575165	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000461	81.71729279	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\dcpr.dll	
+00000462	81.71746826	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000463	81.71929932	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000464	81.72089386	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\deploy.dll	
+00000465	81.72106171	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000466	81.72283936	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000467	81.72422791	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\fontmanager.dll	
+00000468	81.72439575	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000469	81.72620392	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000470	81.72769928	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\hpi.dll	
+00000471	81.72787476	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000472	81.73033905	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000473	81.74315643	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.dll	
+00000474	81.74340057	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000475	81.74517059	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000476	81.74652100	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\java.exe	
+00000477	81.74672699	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000478	81.74848175	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000479	81.74983215	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jp2native.dll	
+00000480	81.75000000	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000481	81.75153351	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000482	81.75295258	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\jpeg.dll	
+00000483	81.75312042	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000484	81.75474548	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000485	81.75614166	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000486	81.75837708	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000487	81.76049805	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\net.dll	
+00000488	81.76084137	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000489	81.76327515	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000490	81.76486206	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\nio.dll	
+00000491	81.76505280	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000492	81.76676941	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000493	81.76826477	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\regutils.dll	
+00000494	81.76846313	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000495	81.77037811	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000496	81.77205658	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\verify.dll	
+00000497	81.77223206	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000498	81.77376556	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000499	81.77513123	[IMAGE LOAD] jqs.exe (PID:572) loaded \Program Files\Java\jre6\bin\zip.dll	
+00000500	81.77529907	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000501	81.77680969	[IMAGE LOAD] jqs.exe (PID:572) loaded \WINDOWS\system32\setupapi.dll	
+00000502	83.01453400	[PROCESS START] cmd.exe (PID:3684) started preservation.ex (PID 2992)	
+00000503	83.01468658	[THREAD START] cmd.exe (PID:3684) started thread (TID 2996)	
+00000504	83.01543427	[IMAGE LOAD] preservation.ex (PID:2992) loaded \Device\HarddiskVolume1\preservation\preservation.exe	
+00000505	83.01554871	[IMAGE LOAD] preservation.ex (PID:2992) loaded \SystemRoot\System32\ntdll.dll	
+00000506	83.01799011	[IMAGE LOAD] preservation.ex (PID:2992) loaded \WINDOWS\system32\kernel32.dll	
+00000507	83.01914215	[IMAGE LOAD] preservation.ex (PID:2992) loaded \WINDOWS\system32\advapi32.dll	
+00000508	83.01942444	[IMAGE LOAD] preservation.ex (PID:2992) loaded \WINDOWS\system32\rpcrt4.dll	
+00000509	83.01972961	[IMAGE LOAD] preservation.ex (PID:2992) loaded \WINDOWS\system32\secur32.dll	
+00000510	83.02247620	Driver Unload called	

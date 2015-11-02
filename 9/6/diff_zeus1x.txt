@@ -1,0 +1,539 @@
+
+------------------------------
+ HandleDiff v0.1 
+------------------------------
+
+Taking first snapshot, wait a moment...
+Sleeping for 60 seconds
+Taking second snapshot, wait a moment...
+Comparing handles now.
+-------------------------------
+[System Process] (pid 0)
+OldHandles: 0
+NewHandles: 0
+[+]            DLL          C:\WINDOWS\system32\uxtheme.dll
+[+]            DLL          C:\WINDOWS\system32\msvcrt.dll
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+System (pid 4)
+OldHandles: 455
+NewHandles: 661
+-------------------------------
+smss.exe (pid 588)
+Process has exited.
+-------------------------------
+csrss.exe (pid 660)
+OldHandles: 445
+NewHandles: 480
+-------------------------------
+winlogon.exe (pid 684)
+OldHandles: 516
+NewHandles: 530
+[+] 0x148      File         \WINDOWS\system32\lowsec\local.ds
+[+] 0x14c      File         \WINDOWS\system32\lowsec\user.ds
+[+] 0x1bc      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x5e8      File         \WINDOWS\system32\sdra64.exe
+[+] 0x7a0      File         \lsass
+[+] 0x7e4      Mutant       \BaseNamedObjects\_AVIRA_2109
+[+] 0x878      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+services.exe (pid 736)
+OldHandles: 278
+NewHandles: 302
+[+] 0x1dc      Mutant       \BaseNamedObjects\c:!documents and settings!localservice!local settings!history!history.ie5!
+[+] 0x1e0      File         \Documents and Settings\LocalService\Local Settings\History\History.IE5\index.dat
+[+] 0x208      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x290      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x338      Section      \BaseNamedObjects\C:_Documents and Settings_LocalService_Local Settings_History_History.IE5_index.dat_16384
+[+] 0x3a0      File         \Documents and Settings\LocalService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+[+] 0x3a4      Mutant       \BaseNamedObjects\_!MSFTHISTORY!_
+[+] 0x3ec      Mutant       \BaseNamedObjects\c:!documents and settings!localservice!local settings!temporary internet files!content.ie5!
+[+] 0x3f0      Section      \BaseNamedObjects\C:_Documents and Settings_LocalService_Cookies_index.dat_16384
+[+] 0x3f8      Section      \BaseNamedObjects\C:_Documents and Settings_LocalService_Local Settings_Temporary Internet Files_Content.IE5_index.dat_32768
+[+] 0x448      File         \lsass
+[+] 0x45c      Mutant       \BaseNamedObjects\11F13BEC01CAE16D000002E02
+[+] 0x460      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x464      Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[+] 0x490      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x4a4      Mutant       \BaseNamedObjects\c:!documents and settings!localservice!cookies!
+[+] 0x4a8      File         \Documents and Settings\LocalService\Cookies\index.dat
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+[+]            DLL          C:\WINDOWS\system32\pstorec.dll
+[+]            DLL          C:\WINDOWS\system32\ATL.DLL
+[+]            DLL          C:\WINDOWS\system32\rsaenh.dll
+-------------------------------
+lsass.exe (pid 748)
+OldHandles: 425
+NewHandles: 489
+[+] 0x2f4      File         \lsass
+[+] 0x33c      File         \lsass
+[+] 0x39c      File         \lsass
+[+] 0x3ec      File         \lsass
+[+] 0x428      Mutant       \BaseNamedObjects\11F39E4601CAE16D000002EC2
+[+] 0x444      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x458      File         \lsass
+[+] 0x45c      File         \lsass
+[+] 0x558      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x5ac      File         \lsass
+[+] 0x5f4      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x614      File         \lsass
+[+] 0x764      File         \lsass
+[+] 0x7b8      File         \lsass
+[+] 0x7c4      File         \lsass
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+svchost.exe (pid 904)
+OldHandles: 212
+NewHandles: 329
+[+] 0xc4       Key          \REGISTRY\USER\.DEFAULT
+[+] 0xcc       Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x158      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x328      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x32c      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x36c      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x378      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x380      Key          \REGISTRY\USER
+[+] 0x384      File         \lsass
+[+] 0x38c      Key          \REGISTRY\USER
+[+] 0x394      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x39c      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x3a4      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[+] 0x3ac      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x3b4      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x3bc      Key          \REGISTRY\USER
+[+] 0x3c4      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x3cc      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x3d4      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[+] 0x3e0      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x3fc      Mutant       \BaseNamedObjects\_!MSFTHISTORY!_
+[+] 0x400      File         \WINDOWS\system32\config\systemprofile\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+[+] 0x404      Mutant       \BaseNamedObjects\c:!windows!system32!config!systemprofile!local settings!temporary internet files!content.ie5!
+[+] 0x408      File         \WINDOWS\system32\config\systemprofile\Cookies\index.dat
+[+] 0x40c      Section      \BaseNamedObjects\C:_WINDOWS_system32_config_systemprofile_Local Settings_Temporary Internet Files_Content.IE5_index.dat_32768
+[+] 0x410      Mutant       \BaseNamedObjects\c:!windows!system32!config!systemprofile!cookies!
+[+] 0x414      Mutant       \BaseNamedObjects\c:!windows!system32!config!systemprofile!local settings!history!history.ie5!
+[+] 0x418      File         \WINDOWS\system32\config\systemprofile\Local Settings\History\History.IE5\index.dat
+[+] 0x41c      Section      \BaseNamedObjects\C:_WINDOWS_system32_config_systemprofile_Local Settings_History_History.IE5_index.dat_16384
+[+] 0x420      Mutant       \BaseNamedObjects\WininetStartupMutex
+[+] 0x428      Section      \BaseNamedObjects\C:_WINDOWS_system32_config_systemprofile_Cookies_index.dat_16384
+[+] 0x434      Mutant       \BaseNamedObjects\WininetProxyRegistryMutex
+[+] 0x448      Mutant       \BaseNamedObjects\_AVIRA_2108
+[+] 0x460      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x464      Mutant       \BaseNamedObjects\RasPbFile
+[+] 0x48c      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32
+[+] 0x4a0      Section      \BaseNamedObjects\SENS Information Cache
+[+] 0x4a8      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Hardware Profiles\0001
+[+] 0x4b0      Mutant       \BaseNamedObjects\ZonesCounterMutex
+[+] 0x4b8      Mutant       \BaseNamedObjects\ZonesCacheCounterMutex
+[+] 0x4bc      Mutant       \BaseNamedObjects\ZonesLockedCacheCounterMutex
+[+] 0x4c0      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+[+] 0x4c4      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x4c8      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+[+] 0x4cc      Section      \BaseNamedObjects\UrlZonesSM_SYSTEM
+[+] 0x4f8      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Network\Location Awareness
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+[+]            DLL          C:\WINDOWS\system32\hnetcfg.dll
+[+]            DLL          C:\WINDOWS\system32\RASAPI32.DLL
+[+]            DLL          C:\WINDOWS\system32\rasman.dll
+[+]            DLL          C:\WINDOWS\system32\TAPI32.dll
+[+]            DLL          C:\WINDOWS\system32\rtutils.dll
+[+]            DLL          C:\WINDOWS\system32\sensapi.dll
+[+]            DLL          C:\WINDOWS\system32\urlmon.dll
+[+]            DLL          C:\WINDOWS\System32\mswsock.dll
+[+]            DLL          C:\WINDOWS\System32\wshtcpip.dll
+[+]            DLL          C:\WINDOWS\system32\rasadhlp.dll
+[+]            DLL          C:\WINDOWS\system32\DNSAPI.dll
+[+]            DLL          C:\WINDOWS\System32\winrnr.dll
+-------------------------------
+svchost.exe (pid 984)
+OldHandles: 264
+NewHandles: 288
+[+] 0x130      Section      \BaseNamedObjects\C:_Documents and Settings_NetworkService_Local Settings_History_History.IE5_index.dat_16384
+[+] 0x138      File         \Documents and Settings\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+[+] 0x13c      Mutant       \BaseNamedObjects\_!MSFTHISTORY!_
+[+] 0x1bc      Section      \BaseNamedObjects\C:_Documents and Settings_NetworkService_Local Settings_Temporary Internet Files_Content.IE5_index.dat_32768
+[+] 0x238      Key          \REGISTRY\USER
+[+] 0x28c      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x2c4      Key          \REGISTRY\USER\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x30c      Mutant       \BaseNamedObjects\c:!documents and settings!networkservice!cookies!
+[+] 0x330      Mutant       \BaseNamedObjects\c:!documents and settings!networkservice!local settings!temporary internet files!content.ie5!
+[+] 0x33c      File         \Documents and Settings\NetworkService\Local Settings\History\History.IE5\index.dat
+[+] 0x344      Mutant       \BaseNamedObjects\c:!documents and settings!networkservice!local settings!history!history.ie5!
+[+] 0x348      File         \Documents and Settings\NetworkService\Cookies\index.dat
+[+] 0x34c      Section      \BaseNamedObjects\C:_Documents and Settings_NetworkService_Cookies_index.dat_16384
+[+] 0x380      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x424      Key          \REGISTRY\USER\S-1-5-20
+[+] 0x43c      Mutant       \BaseNamedObjects\125099FC01CAE16D000003D82
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+[+]            DLL          C:\WINDOWS\system32\pstorec.dll
+[+]            DLL          C:\WINDOWS\system32\ATL.DLL
+[+]            DLL          C:\WINDOWS\system32\netapi32.dll
+-------------------------------
+svchost.exe (pid 1076)
+OldHandles: 1317
+NewHandles: 1376
+[-] 0x163c     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x440      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x8a0      File         \browser
+[+] 0xd7c      Mutant       \BaseNamedObjects\125EE81801CAE16D000004342
+[+] 0xdac      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Network\Location Awareness
+[+] 0xf48      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x12d4     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x12d8     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x131c     File         \browser
+[+] 0x1468     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1690     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x16d0     Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\Browser\Parameters
+[+]            DLL          C:\WINDOWS\system32\wbem\wbemprox.dll
+[+]            DLL          C:\WINDOWS\system32\wbem\wbemcons.dll
+[+]            DLL          C:\WINDOWS\system32\netcfgx.dll
+-------------------------------
+svchost.exe (pid 1124)
+OldHandles: 80
+NewHandles: 82
+[+] 0xf4       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x128      Key          \REGISTRY\USER\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x138      Key          \REGISTRY\USER\S-1-5-20
+[+] 0x164      Mutant       \BaseNamedObjects\12660F2601CAE16D000004642
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+svchost.exe (pid 1200)
+OldHandles: 171
+NewHandles: 179
+[-] 0x22c      Key          \REGISTRY\USER\S-1-5-19_CLASSES
+[+] 0x22c      Key          \REGISTRY\USER\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x244      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x250      Key          \REGISTRY\USER\S-1-5-19_CLASSES
+[+] 0x2b4      Mutant       \BaseNamedObjects\12E2096E01CAE16D000004B02
+[+] 0x2c0      Key          \REGISTRY\USER\S-1-5-19
+[+] 0x2c4      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+iscsiexe.exe (pid 1488)
+OldHandles: 77
+NewHandles: 88
+[+] 0x164      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x170      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x18c      Mutant       \BaseNamedObjects\1384295601CAE16D000005D02
+[+] 0x190      File         \lsass
+[+] 0x194      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x198      Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\System32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\System32\wsock32.dll
+-------------------------------
+explorer.exe (pid 1672)
+OldHandles: 433
+NewHandles: 434
+[-] 0x550      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x564      File         \Documents and Settings\Administrator\Start Menu
+[-] 0x664      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x68c      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x694      File         \Documents and Settings\All Users\Start Menu
+[-] 0x6b0      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x30c      File         \Documents and Settings\All Users\Start Menu
+[+] 0x4dc      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x6ac      File         \Documents and Settings\Administrator\Start Menu
+[+] 0x6ec      Mutant       \BaseNamedObjects\13CBAFE201CAE16D000006882
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+-------------------------------
+spoolsv.exe (pid 1704)
+OldHandles: 135
+NewHandles: 139
+[+] 0xc4       Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x298      Mutant       \BaseNamedObjects\13CE123C01CAE16D000006A82
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+SharedIntApp.exe (pid 1988)
+OldHandles: 60
+NewHandles: 68
+[+] 0xf8       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x100      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x11c      Mutant       \BaseNamedObjects\14E2A30401CAE16D000007C42
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+prl_cc.exe (pid 1996)
+OldHandles: 179
+NewHandles: 182
+[+] 0x280      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x2dc      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x2f0      Mutant       \BaseNamedObjects\14E9CA1201CAE16D000007CC2
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+jusched.exe (pid 2032)
+OldHandles: 88
+NewHandles: 90
+[+] 0x150      Mutant       \BaseNamedObjects\14F8182E01CAE16D000007F02
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+svchost.exe (pid 500)
+OldHandles: 90
+NewHandles: 92
+[+] 0x178      Mutant       \BaseNamedObjects\18AA9DC001CAE16D000001F42
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+-------------------------------
+jqs.exe (pid 572)
+OldHandles: 146
+NewHandles: 150
+[+] 0x248      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x260      Mutant       \BaseNamedObjects\18BDB09001CAE16D0000023C2
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+sqlservr.exe (pid 640)
+OldHandles: 311
+NewHandles: 316
+[+] 0x4e8      Key          \REGISTRY\USER\S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x4ec      Key          \REGISTRY\USER\S-1-5-20
+[+] 0x4f4      Mutant       \BaseNamedObjects\18C99C5201CAE16D000002802
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+coherence.exe (pid 800)
+OldHandles: 51
+NewHandles: 61
+[+] 0xd0       Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[+] 0xd8       Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0xdc       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0xe0       Key          \REGISTRY\USER\.DEFAULT
+[+] 0x100      Mutant       \BaseNamedObjects\1A9A86E001CAE16D000003202
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+prl_tools_service.exe (pid 116)
+OldHandles: 78
+NewHandles: 84
+[+] 0x140      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x144      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x148      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x15c      Mutant       \BaseNamedObjects\1A9CE93A01CAE16D000000742
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+prl_tools.exe (pid 968)
+OldHandles: 96
+NewHandles: 102
+[+] 0x138      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x194      Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[+] 0x198      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x19c      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x1a4      Mutant       \BaseNamedObjects\1AA1ADEE01CAE16D000003C82
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+sqlwriter.exe (pid 1064)
+OldHandles: 83
+NewHandles: 94
+[+] 0x94       Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[+] 0x138      Key          \REGISTRY\USER\.DEFAULT
+[+] 0x150      Mutant       \BaseNamedObjects\1AA672A201CAE16D000004282
+[+] 0x164      File         \lsass
+[+] 0x178      Key          \REGISTRY\USER\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x17c      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+]            DLL          C:\WINDOWS\system32\shell32.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+wscntfy.exe (pid 2256)
+OldHandles: 28
+NewHandles: 37
+[+] 0x78       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x7c       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x80       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500
+[+] 0xa0       Mutant       \BaseNamedObjects\1D6365FE01CAE16D000008D02
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+alg.exe (pid 2600)
+OldHandles: 107
+NewHandles: 127
+[+] 0x130      Key          \REGISTRY\USER\S-1-5-19
+[+] 0x194      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0x1bc      Key          \REGISTRY\USER\S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x1c0      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x1d0      Mutant       \BaseNamedObjects\1EFFDCD001CAE16D00000A282
+[+] 0x1dc      Mutant       \BaseNamedObjects\_!MSFTHISTORY!_
+[+] 0x1e8      File         \Documents and Settings\LocalService\Local Settings\Temporary Internet Files\Content.IE5\index.dat
+[+] 0x1ec      Mutant       \BaseNamedObjects\c:!documents and settings!localservice!local settings!temporary internet files!content.ie5!
+[+] 0x1f0      Mutant       \BaseNamedObjects\c:!docume~1!locals~1!locals~1!temp!temporary internet files!content.ie5!
+[+] 0x1f4      File         \DOCUME~1\LOCALS~1\LOCALS~1\Temp\Temporary Internet Files\Content.IE5\index.dat
+[+] 0x1f8      Section      \BaseNamedObjects\C:_DOCUME~1_LOCALS~1_LOCALS~1_Temp_Temporary Internet Files_Content.IE5_index.dat_32768
+[+] 0x1fc      Mutant       \BaseNamedObjects\c:!docume~1!locals~1!locals~1!temp!cookies!
+[+] 0x200      File         \DOCUME~1\LOCALS~1\LOCALS~1\Temp\Cookies\index.dat
+[+] 0x204      Section      \BaseNamedObjects\C:_DOCUME~1_LOCALS~1_LOCALS~1_Temp_Cookies_index.dat_16384
+[+] 0x208      Mutant       \BaseNamedObjects\c:!docume~1!locals~1!locals~1!temp!history!history.ie5!
+[+] 0x20c      File         \DOCUME~1\LOCALS~1\LOCALS~1\Temp\History\History.IE5\index.dat
+[+] 0x210      Section      \BaseNamedObjects\C:_DOCUME~1_LOCALS~1_LOCALS~1_Temp_History_History.IE5_index.dat_16384
+[+] 0x218      Key          \REGISTRY\USER
+[+]            DLL          C:\WINDOWS\System32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\System32\pstorec.dll
+[+]            DLL          C:\WINDOWS\system32\netapi32.dll
+[+]            DLL          C:\WINDOWS\System32\rsaenh.dll
+-------------------------------
+wuauclt.exe (pid 1100)
+OldHandles: 109
+NewHandles: 116
+[+] 0x150      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x1c0      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500
+[+] 0x1d4      Mutant       \BaseNamedObjects\E05C7E7E01CAE7C10000044C2
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+AdobeARM.exe (pid 3724)
+OldHandles: 126
+NewHandles: 128
+[+] 0xdc       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x20c      Mutant       \BaseNamedObjects\E314B2DA01CAE7C100000E8C2
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll
+-------------------------------
+jucheck.exe (pid 3880)
+OldHandles: 104
+NewHandles: 106
+[+] 0x1ac      Mutant       \BaseNamedObjects\6588379601CAE7C200000F282
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+-------------------------------
+devenv.exe (pid 2588)
+OldHandles: 740
+NewHandles: 759
+[+] 0xb3c      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xb94      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xb98      File         \Program Files\Microsoft Visual Studio 9.0\VC#\Snippets\1033
+[+] 0xb9c      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xba0      File         \Program Files\Microsoft Visual Studio 9.0\VC#\Snippets\1033
+[+] 0xba8      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbb0      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbb4      File         \Documents and Settings\Administrator\My Documents\Visual Studio 2008\Code Snippets\XML
+[+] 0xbb8      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbbc      File         \Documents and Settings\Administrator\My Documents\Visual Studio 2008\Code Snippets\Visual C#
+[+] 0xbc0      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbc4      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbc8      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbcc      File         \Program Files\Microsoft Visual Studio 9.0\VB\Snippets\1033
+[+] 0xbd0      File         \Program Files\Microsoft Visual Studio 9.0\VC#\Snippets\1033
+[+] 0xbd4      File         \Program Files\Microsoft Visual Studio 9.0\VC#\Snippets\1033
+[+] 0xbd8      File         \Documents and Settings\Administrator\My Documents\Visual Studio 2008\Code Snippets\Visual Basic
+[+] 0xbdc      File         \Program Files\Microsoft Visual Studio 9.0\VC#\Snippets\1033
+[+] 0xbe0      File         \Program Files\Microsoft Visual Studio 9.0\Xml\1033
+[+] 0xbe8      Mutant       \BaseNamedObjects\BCBFF3E101CAE7C200000A1C2
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+-------------------------------
+mspdbsrv.exe (pid 1964)
+OldHandles: 31
+NewHandles: 31
+-------------------------------
+cmd.exe (pid 2520)
+OldHandles: 34
+NewHandles: 45
+[+] 0x80       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x8c       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0xbc       Mutant       \BaseNamedObjects\ADF9C3D401CAE7C5000009D82
+[+]            DLL          C:\WINDOWS\system32\psapi.dll
+[+]            DLL          C:\WINDOWS\system32\wininet.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\ws2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\wsock32.dll

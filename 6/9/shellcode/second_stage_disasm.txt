@@ -1,0 +1,169 @@
+0x00000000 (01) 41                   INC ECX
+0x00000001 (01) 43                   INC EBX
+0x00000002 (01) 49                   DEC ECX
+0x00000003 (01) 4b                   DEC EBX
+0x00000004 (02) eb 11                JMP 0x17
+0x00000006 (01) fc                   CLD
+0x00000007 (01) 5b                   POP EBX
+0x00000008 (01) 4b                   DEC EBX
+0x00000009 (02) 33c9                 XOR ECX, ECX
+0x0000000b (04) 66 b9 b001           MOV CX, 0x1b0
+0x0000000f (04) 80340b f9            XOR BYTE [EBX+ECX], 0xf9
+0x00000013 (02) e2 fa                LOOP 0xf
+0x00000015 (02) eb 05                JMP 0x1c
+0x00000017 (05) e8 ebffffff          CALL 0x7
+0x0000001c (05) e8 00000000          CALL 0x21
+0x00000021 (01) 5a                   POP EDX
+0x00000022 (01) 55                   PUSH EBP
+0x00000023 (02) 8bec                 MOV EBP, ESP
+0x00000025 (06) 81ec 64040000        SUB ESP, 0x464
+0x0000002b (02) 8bf4                 MOV ESI, ESP
+0x0000002d (05) e8 90010000          CALL 0x1c2
+0x00000032 (02) 8bf8                 MOV EDI, EAX
+0x00000034 (05) e8 ef000000          CALL 0x128
+0x00000039 (02) 8906                 MOV [ESI], EAX
+0x0000003b (02) ff36                 PUSH DWORD [ESI]
+0x0000003d (05) 68 ad9b7ddf          PUSH 0xdf7d9bad
+0x00000042 (05) e8 14010000          CALL 0x15b
+0x00000047 (03) 8946 0c              MOV [ESI+0xc], EAX
+0x0000004a (02) ff36                 PUSH DWORD [ESI]
+0x0000004c (05) 68 2912c656          PUSH 0x56c61229
+0x00000051 (05) e8 05010000          CALL 0x15b
+0x00000056 (03) 8946 10              MOV [ESI+0x10], EAX
+0x00000059 (02) ff36                 PUSH DWORD [ESI]
+0x0000005b (05) 68 593c077b          PUSH 0x7b073c59
+0x00000060 (05) e8 f6000000          CALL 0x15b
+0x00000065 (03) 8946 14              MOV [ESI+0x14], EAX
+0x00000068 (02) ff36                 PUSH DWORD [ESI]
+0x0000006a (05) 68 7ed8e273          PUSH 0x73e2d87e
+0x0000006f (05) e8 e7000000          CALL 0x15b
+0x00000074 (03) 8946 34              MOV [ESI+0x34], EAX
+0x00000077 (02) 33c9                 XOR ECX, ECX
+0x00000079 (02) eb 03                JMP 0x7e
+0x0000007b (03) 8b4e 3c              MOV ECX, [ESI+0x3c]
+0x0000007e (03) 83c1 04              ADD ECX, 0x4
+0x00000081 (01) 51                   PUSH ECX
+0x00000082 (02) 6a 00                PUSH 0x0
+0x00000084 (01) 51                   PUSH ECX
+0x00000085 (03) ff56 0c              CALL [ESI+0xc]
+0x00000088 (01) 59                   POP ECX
+0x00000089 (03) 83f8 ff              CMP EAX, -0x1
+0x0000008c (02) 74 f0                JZ 0x7e
+0x0000008e (05) 3d 401f0000          CMP EAX, 0x1f40
+0x00000093 (02) 76 e9                JBE 0x7e
+0x00000095 (03) 894e 3c              MOV [ESI+0x3c], ECX
+0x00000098 (02) 6a 00                PUSH 0x0
+0x0000009a (02) 6a 00                PUSH 0x0
+0x0000009c (02) 6a 00                PUSH 0x0
+0x0000009e (02) 6a 02                PUSH 0x2
+0x000000a0 (02) 6a 00                PUSH 0x0
+0x000000a2 (03) ff76 3c              PUSH DWORD [ESI+0x3c]
+0x000000a5 (03) ff56 10              CALL [ESI+0x10]
+0x000000a8 (03) 8946 44              MOV [ESI+0x44], EAX
+0x000000ab (03) 83f8 00              CMP EAX, 0x0
+0x000000ae (02) 74 cb                JZ 0x7b
+0x000000b0 (02) 6a 00                PUSH 0x0
+0x000000b2 (02) 6a 00                PUSH 0x0
+0x000000b4 (02) 6a 00                PUSH 0x0
+0x000000b6 (02) 6a 04                PUSH 0x4
+0x000000b8 (03) ff76 44              PUSH DWORD [ESI+0x44]
+0x000000bb (03) ff56 14              CALL [ESI+0x14]
+0x000000be (03) 8946 48              MOV [ESI+0x48], EAX
+0x000000c1 (03) 83f8 00              CMP EAX, 0x0
+0x000000c4 (02) 74 b5                JZ 0x7b
+0x000000c6 (06) 8138 25504446        CMP DWORD [EAX], 0x46445025
+0x000000cc (03) 8b4e 3c              MOV ECX, [ESI+0x3c]
+0x000000cf (02) 75 ad                JNZ 0x7e
+0x000000d1 (0a) 81b8 00120000 50645044 CMP DWORD [EAX+0x1200], 0x44506450
+0x000000db (02) 75 a1                JNZ 0x7e
+0x000000dd (0a) 81b8 04120000 effeeaae CMP DWORD [EAX+0x1204], 0xaeeafeef
+0x000000e7 (02) 75 95                JNZ 0x7e
+0x000000e9 (05) b9 00060000          MOV ECX, 0x600
+0x000000ee (06) 81ec 00080000        SUB ESP, 0x800
+0x000000f4 (01) 56                   PUSH ESI
+0x000000f5 (01) 57                   PUSH EDI
+0x000000f6 (02) 8bf0                 MOV ESI, EAX
+0x000000f8 (06) 81c6 10120000        ADD ESI, 0x1210
+0x000000fe (02) 8bc4                 MOV EAX, ESP
+0x00000100 (03) 83c0 08              ADD EAX, 0x8
+0x00000103 (02) 8bf8                 MOV EDI, EAX
+0x00000105 (02) f3 a4                REP MOVSB
+0x00000107 (05) b9 00060000          MOV ECX, 0x600
+0x0000010c (01) 49                   DEC ECX
+0x0000010d (01) 49                   DEC ECX
+0x0000010e (01) 49                   DEC ECX
+0x0000010f (01) 49                   DEC ECX
+0x00000110 (07) 813408 eefefeef      XOR DWORD [EAX+ECX], 0xeffefeee
+0x00000117 (02) 85c9                 TEST ECX, ECX
+0x00000119 (02) 75 f1                JNZ 0x10c
+0x0000011b (01) 5f                   POP EDI
+0x0000011c (01) 5e                   POP ESI
+0x0000011d (03) ff76 3c              PUSH DWORD [ESI+0x3c]
+0x00000120 (03) ff76 48              PUSH DWORD [ESI+0x48]
+0x00000123 (03) ff76 44              PUSH DWORD [ESI+0x44]
+0x00000126 (02) ffe0                 JMP EAX
+0x00000128 (01) 55                   PUSH EBP
+0x00000129 (01) 56                   PUSH ESI
+0x0000012a (06) 64 a1 30000000       MOV EAX, FS:[0x30]
+0x00000130 (02) 85c0                 TEST EAX, EAX
+0x00000132 (02) 78 13                JS 0x147
+0x00000134 (04) 3e 8b40 0c           MOV EAX, DS:[EAX+0xc]
+0x00000138 (04) 3e 8b70 1c           MOV ESI, DS:[EAX+0x1c]
+0x0000013c (04) 3e 8b5e 08           MOV EBX, DS:[ESI+0x8]
+0x00000140 (01) ad                   LODSD
+0x00000141 (04) 3e 8b68 08           MOV EBP, DS:[EAX+0x8]
+0x00000145 (02) eb 0d                JMP 0x154
+0x00000147 (04) 3e 8b40 34           MOV EAX, DS:[EAX+0x34]
+0x0000014b (07) 3e 8ba8 b8000000     MOV EBP, DS:[EAX+0xb8]
+0x00000152 (02) 33db                 XOR EBX, EBX
+0x00000154 (02) 8bc5                 MOV EAX, EBP
+0x00000156 (01) 5e                   POP ESI
+0x00000157 (01) 5d                   POP EBP
+0x00000158 (03) c2 0400              RET 0x4
+0x0000015b (01) 53                   PUSH EBX
+0x0000015c (01) 55                   PUSH EBP
+0x0000015d (01) 56                   PUSH ESI
+0x0000015e (01) 57                   PUSH EDI
+0x0000015f (05) 36 8b6c24 18         MOV EBP, SS:[ESP+0x18]
+0x00000164 (04) 36 8b45 3c           MOV EAX, SS:[EBP+0x3c]
+0x00000168 (05) 36 8b5405 78         MOV EDX, SS:[EBP+EAX+0x78]
+0x0000016d (02) 03d5                 ADD EDX, EBP
+0x0000016f (04) 3e 8b4a 18           MOV ECX, DS:[EDX+0x18]
+0x00000173 (04) 3e 8b5a 20           MOV EBX, DS:[EDX+0x20]
+0x00000177 (02) 03dd                 ADD EBX, EBP
+0x00000179 (02) e3 3c                JECXZ 0x1b7
+0x0000017b (01) 49                   DEC ECX
+0x0000017c (04) 3e 8b348b            MOV ESI, DS:[EBX+ECX*4]
+0x00000180 (02) 03f5                 ADD ESI, EBP
+0x00000182 (02) 33ff                 XOR EDI, EDI
+0x00000184 (01) fc                   CLD
+0x00000185 (02) 33c0                 XOR EAX, EAX
+0x00000187 (01) ac                   LODSB
+0x00000188 (02) 3ac4                 CMP AL, AH
+0x0000018a (02) 74 07                JZ 0x193
+0x0000018c (03) c1cf 0d              ROR EDI, 0xd
+0x0000018f (02) 03f8                 ADD EDI, EAX
+0x00000191 (02) eb f2                JMP 0x185
+0x00000193 (05) 36 3b7c24 14         CMP EDI, SS:[ESP+0x14]
+0x00000198 (02) 75 df                JNZ 0x179
+0x0000019a (02) 8bc2                 MOV EAX, EDX
+0x0000019c (03) 83c0 24              ADD EAX, 0x24
+0x0000019f (03) 3e 8b18              MOV EBX, DS:[EAX]
+0x000001a2 (02) 03dd                 ADD EBX, EBP
+0x000001a4 (05) 66 3e 8b0c4b         MOV CX, DS:[EBX+ECX*2]
+0x000001a9 (04) 3e 8b5a 1c           MOV EBX, DS:[EDX+0x1c]
+0x000001ad (02) 03dd                 ADD EBX, EBP
+0x000001af (04) 3e 8b048b            MOV EAX, DS:[EBX+ECX*4]
+0x000001b3 (02) 03c5                 ADD EAX, EBP
+0x000001b5 (02) eb 02                JMP 0x1b9
+0x000001b7 (02) 33c0                 XOR EAX, EAX
+0x000001b9 (02) 8bd5                 MOV EDX, EBP
+0x000001bb (01) 5f                   POP EDI
+0x000001bc (01) 5e                   POP ESI
+0x000001bd (01) 5d                   POP EBP
+0x000001be (01) 5b                   POP EBX
+0x000001bf (03) c2 0800              RET 0x8
+0x000001c2 (05) e8 00000000          CALL 0x1c7
+0x000001c7 (01) 58                   POP EAX
+0x000001c8 (03) 83c0 05              ADD EAX, 0x5
+0x000001cb (01) c3                   RET

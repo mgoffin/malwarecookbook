@@ -1,0 +1,43 @@
+$$ 
+$$ Example WinDbg script 
+$$ 
+
+r $t0 = poi(nt!PspCreateThreadNotifyRoutineCount);
+r $t1 = poi(nt!PspCreateProcessNotifyRoutineCount);
+r $t2 = poi(nt!PspLoadImageNotifyRoutineCount);
+
+.printf "\n#############################\n";
+
+.printf "No. thread start callbacks: %x\n", @$t0;
+r $t3 = 0;
+.while (@$t3 < 8)
+{
+    r $t4 = poi(nt!PspCreateThreadNotifyRoutine + (@$t3 * 4));
+    .if (@$t4 != 0) {
+        .printf "%x => %x\n", @$t3, @$t4;
+    }
+    r $t3 = @$t3 + 1;
+}
+
+.printf "No. process start callbacks: %x\n", @$t1;
+r $t3 = 0;
+.while (@$t3 < 8)
+{
+    r $t4 = poi(nt!PspCreateProcessNotifyRoutine + (@$t3 * 4));
+    .if (@$t4 != 0) {
+        .printf "%x => %x\n", @$t3, @$t4;
+    }
+    r $t3 = @$t3 + 1;
+}
+
+.printf "No. image load callbacks: %x\n", @$t2;
+r $t3 = 0;
+.while (@$t3 < 8)
+{
+    r $t4 = poi(nt!PspLoadImageNotifyRoutine + (@$t3 * 4));
+    .if (@$t4 != 0) {
+        .printf "%x => %x\n", @$t3, @$t4;
+    }
+    r $t3 = @$t3 + 1;
+}
+

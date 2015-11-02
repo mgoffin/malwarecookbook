@@ -1,0 +1,950 @@
+############################################################
+Record 0
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/hallmark.gif.exe
+Size:    1200043 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit, RAR self-extracting archive
+MD5:     00f769c68f73246d78b9a26697b71d01
+SHA1:    71b7e660bc54f4750a2753291c84bebf759e8a56
+ssdeep:  24576:XnJ5S74MvT1p9UuT8u5dVlO1LtGl1GEt3GRIQ:XJ5W4op9Iu5dVY1k1GEAIQ
+Date:    0x43463A52 [Fri Oct  7 09:05:22 2005 UTC]
+EP:      0x401000 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_BITMAP          0x1c420      0xbb6        data
+RT_ICON            0x1cfd8      0xca8        data
+RT_DIALOG          0x1dc80      0x282        data
+RT_DIALOG          0x1df04      0x13a        data
+RT_DIALOG          0x1e040      0xe8         data
+RT_DIALOG          0x1e128      0x12e        data
+RT_DIALOG          0x1e258      0x338        data
+RT_DIALOG          0x1e590      0x222        data
+RT_STRING          0x1e7b4      0x22c        data
+RT_STRING          0x1e9e0      0x3b2        data
+RT_STRING          0x1ed94      0x212        Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x1efa8      0x27e        data
+RT_RCDATA          0x1f228      0x10         data
+RT_GROUP_ICON      0x1f238      0x14         MS Windows icon resource - 1 icon
+RT_MANIFEST        0x1f24c      0x213        XML
+
+Suspicious IAT alerts
+============================================================
+OpenProcessToken
+ShellExecuteExA
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x13000      0x12600      6.456987    
+.data      0x14000      0x7000       0xa00        4.734466    
+.idata     0x1b000      0x1000       0x1000       5.020330    
+.rsrc      0x1c000      0x345f       0x3600       4.666413    
+
+############################################################
+Record 1
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/3e3a48e3fb6d81a0fae485a69784f4d768127f06.exe
+Size:    35150 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c27f317b8fe7cfbecf45f09c73b14f5a
+SHA1:    3e3a48e3fb6d81a0fae485a69784f4d768127f06
+ssdeep:  768:AU8DLrxghRw0GAJKQBiIS4b5zuy5ADiBtHI6NB+H0rT:AFZSW0GOS49P5TqH0rT
+Date:    0x46DFCA0A [Thu Sep  6 09:36:10 2007 UTC]
+EP:      0x402e90 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_RCDATA          0x7060       0x1c8        data
+
+Suspicious IAT alerts
+============================================================
+ShellExecuteA
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x444a       0x4600       6.154351    
+.data      0x6000       0xaac        0x800        7.158259    [SUSPICIOUS]
+.rsrc      0x7000       0x228        0x400        4.458127    
+
+############################################################
+Record 2
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/v2captcha.exe
+Size:    21504 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3b8eae1bac034f0e0e125d2ea44068ee
+SHA1:    d00d54fc8d58bfcaa122facb55d151b9efb82713
+ssdeep:  384:6ISld1uN4zvbMs80tKcYv8FO3z3T3EFKMMd4MDv/OG:63BuN4zvbMstKcE8F+3T3EIMQv/
+Date:    0x4AC34616 [Wed Sep 30 11:50:46 2009 UTC]
+EP:      0x40141f (.data) [SUSPICIOUS]
+
+Signature scans
+============================================================
+YARA: embedded_exe
+   0x4e => This program cannot be run in DOS mode
+   0xeae => This program cannot be run in DOS mode
+
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+EXE                0x2060       0x4400       MS-DOS executable PE  for MS Windows (DLL) (GUI) Intel 80386 32-bit, UPX compressed
+
+Suspicious IAT alerts
+============================================================
+CreateProcessA
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.data      0x1000       0x8a2        0xa00        5.068596    
+.rsrc      0x2000       0x4460       0x4600       7.457621    [SUSPICIOUS]
+
+############################################################
+Record 3
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/Windows Update.exe
+Size:    96256 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ac9fe62b82080e405a9ffadb64bdcdf7
+SHA1:    898bcdbbf53ea50ea9e2c409f4997d2f58d88f71
+ssdeep:  1536:PmKURu4VNMJC0fDONC4p2T4e0E0ibBvQg720u9r4yhEpM8U:Pm9u4sJLqNQToadvv60Sr4yhB8
+Date:    0x48C4AC98 [Mon Sep  8 04:39:52 2008 UTC]
+EP:      0x403ff1 (.text)
+
+Suspicious IAT alerts
+============================================================
+StartServiceCtrlDispatcherA
+CreateProcessAsUserA
+CreateProcessAsUserW
+StartServiceCtrlDispatcherW
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x12f75      0x13000      6.879670    
+.rdata     0x14000      0x4060       0x4200       5.503374    
+.data      0x19000      0x20eb       0x200        0.887160    [SUSPICIOUS]
+
+############################################################
+Record 4
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/01C96CD0699DD2C0_Winlr66_sys.PE
+Size:    31616 bytes
+Type:    MS-DOS executable PE  for MS Windows (native) Intel 80386 32-bit
+MD5:     d884094437fe2d8fac33da75de2e96be
+SHA1:    8b57624f954b0baefd4941bf44ad8ef7cad3b463
+ssdeep:  768:oxQK0HWA4bci5neO8NCxpW2ghFHTVMgscZ4Rw:oxQVUci5eO8ExY2grzVTsx
+Date:    0x48B531A2 [Wed Aug 27 10:51:14 2008 UTC]
+EP:      0x10b90 (.text)
+
+Signature scans
+============================================================
+YARA: embedded_exe
+   0x4e => This program cannot be run in DOS mode
+   0x35ce => This program cannot be run in DOS mode
+
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+BIN                0x3580       0x4200       MS-DOS executable PE  for MS Windows (DLL) (GUI) Intel 80386 32-bit
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x480        0x26f4       0x2700       5.705293    
+.rdata     0x2b80       0x180        0x180        3.830066    
+.data      0x2d00       0x2d5        0x300        0.316915    [SUSPICIOUS]
+INIT       0x3000       0x4d8        0x500        5.202389    
+.rsrc      0x3500       0x4280       0x4280       7.088351    [SUSPICIOUS]
+.reloc     0x7780       0x394        0x400        4.373185    
+
+############################################################
+Record 5
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/8b5829911f4e6e8c2b42452e08f29efa
+Size:    163840 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8b5829911f4e6e8c2b42452e08f29efa
+SHA1:    3d06ed4ec97a83fe57499ae3838d8de866928499
+ssdeep:  3072:sIWvXLn/2WsgPgy8F7RcpKhqcnsnW/Jjkmm+kFpqIltneyFWaKP:+XLn/jYx7SpsqcnkWzhkFpftneI
+Date:    0x4667F8E0 [Thu Jun  7 12:24:00 2007 UTC]
+EP:      0x4072fc (CODE) [SUSPICIOUS]
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+CODE       0x1000       0x7417       0x7600       2.535033    
+DATA       0x9000       0x57b        0x600        0.054799    [SUSPICIOUS]
+.INIT      0xa000       0x132c       0x1400       0.072910    [SUSPICIOUS]
+.rel       0xc000       0x1d46       0x1e00       4.751197    
+.bss       0xe000       0x465e07     0x1d000      7.300440    [SUSPICIOUS]
+.idata     0x474000     0x19dd       0x1a00       0.000000    
+.stls      0x476000     0x37         0x200        0.000000    
+.rdata     0x477000     0x18         0x200        0.000000    
+.rsrc      0x478000     0x166b       0x1800       0.000000    
+
+############################################################
+Record 6
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/hmsexyss.exe
+Size:    114688 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     62d9a08f927c5245571cbd13e06c58ff
+SHA1:    89c0a2f5b6edaa2fb22e0ffc7cc4d01a653fe4f3
+ssdeep:  3072:5nj9jtfU+INndIc0JQ5lWmvOls6EXcpli0Z:5jbeiZsdupv
+Date:    0x41107BC1 [Wed Aug  4 06:01:37 2004 UTC]
+EP:      0x100645c (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+AVI                0xd7a0       0x2e1a       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0x105bc      0xed0        data
+RT_ICON            0x105bc      0xed0        data
+RT_DIALOG          0x109cc      0x2cc        data
+RT_DIALOG          0x10c98      0x18a        data
+RT_DIALOG          0x10e24      0x140        data
+RT_DIALOG          0x10f64      0x196        data
+RT_DIALOG          0x110fc      0x10e        data
+RT_DIALOG          0x1120c      0xfa         data
+RT_STRING          0x11308      0x8c         data
+RT_STRING          0x11394      0x520        data
+RT_STRING          0x118b4      0x5cc        data
+RT_STRING          0x11e80      0x4b0        data
+RT_STRING          0x12330      0x44a        data
+RT_STRING          0x1277c      0x3ce        data
+RT_RCDATA          0x12b4c      0x7          ASCII text, with no line terminators
+RT_RCDATA          0x12b54      0xbd59       Microsoft Cabinet archive data, 48473 bytes, 1 file
+RT_RCDATA          0x1e8b0      0x4          data
+RT_RCDATA          0x1e8b4      0x24         data
+RT_RCDATA          0x1e8d8      0x7          ASCII text, with no line terminators
+RT_RCDATA          0x1e8e0      0x7          ASCII text, with no line terminators
+RT_RCDATA          0x1e8e8      0x4          data
+RT_RCDATA          0x1e8ec      0xd          ASCII text, with no line terminators
+RT_RCDATA          0x1e8fc      0x4          data
+RT_RCDATA          0x1e900      0xd          ASCII text, with no line terminators
+RT_RCDATA          0x1e910      0x4          data
+RT_RCDATA          0x1e914      0xf          ASCII text, with no line terminators
+RT_RCDATA          0x1e924      0x7          ASCII text, with no line terminators
+RT_RCDATA          0x1e92c      0x7          ASCII text, with no line terminators
+RT_GROUP_ICON      0x1e934      0x22         MS Windows icon resource - 2 icons, 48x48, 256-colors
+RT_VERSION         0x1e958      0x434        data
+
+Suspicious IAT alerts
+============================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x992c       0x9a00       6.565016    
+.data      0xb000       0x1be4       0x400        4.248000    
+.rsrc      0xd000       0x12000      0x11e00      7.223914    [SUSPICIOUS]
+
+Version info
+============================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Wextract                
+FileVersion: 6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.00.2900.2180
+FileDescription: Win32 Cabinet Self-Extractor                                           
+OriginalFilename: WEXTRACT.EXE            
+Translation: 0x0409 0x04b0
+
+############################################################
+Record 7
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/logi.exe
+Size:    133867 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2d984f002723b0383ee552865088991b
+SHA1:    a4c1378c634dd28235f1874fed27aa590491f146
+ssdeep:  3072:a1t/P/GamBftpfoowBb0HGTyOa/t3HWb5MobuHX/:itHU1ptwRNTyOGt32dbY
+Date:    0x465C280F [Tue May 29 13:18:07 2007 UTC]
+EP:      0x4013ea (.text)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0xcce        0xc00        7.934558    [SUSPICIOUS]
+.rdata     0x2000       0x554        0x400        7.814444    [SUSPICIOUS]
+.data      0x3000       0x27000      0x1f6eb      7.997881    [SUSPICIOUS]
+
+############################################################
+Record 8
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/018a4aa0abc1147fa77982b044916050
+Size:    38912 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     018a4aa0abc1147fa77982b044916050
+SHA1:    05a8d9afc591a7268ea020b4523208dec1ce4c64
+ssdeep:  768:e2W57yUgd3+BfJobSf/uzvqP6s8YhphzGpccuwi:e2WxyUe+ZJouf/uTnGvwi
+Date:    0x37A43EF2 [Sun Aug  1 12:34:58 1999 UTC] [SUSPICIOUS]
+EP:      0x40108a (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_ICON            0xd0e8       0x2e8        data
+RT_GROUP_ICON      0xd3d0       0x14         MS Windows icon resource - 1 icon
+RT_VERSION         0xd3e4       0x40c        data
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x6117       0x6200       7.858149    [SUSPICIOUS]
+.data      0x8000       0x49c2       0x2600       5.610926    
+.rsrc      0xd000       0x7f0        0x800        3.593681    
+.adata     0xe000       0x21f6       0x3ba        0.000000    
+
+Version info
+============================================================
+LegalCopyright: Copyright (c) Creative Technology Ltd., 2005-2006. All rights reserved.
+InternalName: AutoUpdateEXE
+FileVersion: 1.0.21.0
+CompanyName: Creative Technology Ltd
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Creative Software AutoUpdate
+SpecialBuild: 
+ProductVersion: 1.0.0.0
+FileDescription: Creative Software AutoUpdate
+OriginalFilename: AutoUpdate.EXE
+Translation: 0x0409 0x04b0
+
+############################################################
+Record 9
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/2bbb8c20252cd45f045df7c139fb8b8f.vxe
+Size:    57856 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2bbb8c20252cd45f045df7c139fb8b8f
+SHA1:    b05c9f3b052886cd01648ec9e348769d0a076e48
+ssdeep:  1536:9+5QtHUsJLlpTZlpPk19fH4b0YljpeLYDYeA6kh1OLl:94KHHlpNI1V4oYlVqYDYeIQLl
+Date:    0x3B8D507F [Wed Aug 29 20:28:47 2001 UTC]
+EP:      0x40113a (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_ICON            0x100e8      0x2e8        data
+RT_GROUP_ICON      0x103d0      0x14         MS Windows icon resource - 1 icon
+RT_VERSION         0x103e4      0x2fc        data
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0xa704       0xa800       7.942781    [SUSPICIOUS]
+.data      0xc000       0x36df       0x2e00       5.509855    
+.rsrc      0x10000      0x6e0        0x800        4.002307    
+.init      0x11000      0x88c        0x0          0.000000    [SUSPICIOUS]
+
+############################################################
+Record 10
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/flashload.ex_
+Size:    81920 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8bbe29855bd0c7a0436c8ef90a45911b
+SHA1:    c71604e77c1bce02c136a267eadfe145f8d096d6
+ssdeep:  1536:DZTymUOfY4NVS9E8yrzS/HxjrWgP1ZcIpyhTUBVhtzGj9Z:4fOfYeAjgzS/9agPEIQhTUBVfz
+Date:    0x4755E10C [Tue Dec  4 23:21:48 2007 UTC]
+EP:      0x4012e0 (.text)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0xcba        0x1000       5.536427    
+.data      0x2000       0x13620      0x12000      7.917862    [SUSPICIOUS]
+
+############################################################
+Record 11
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/module.exe
+Size:    18944 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eec53e2239800e5d85b6b85d5e2451cb
+SHA1:    62fc2ea484abc6ecf11381727a2ff776a14c60b6
+ssdeep:  384:24y8qRtdXHwsRJTQd46QKEywkyawk3hUODoOgf2oDHU4:tpSXQ2cFlwkynk3hUOUOgf2oD04
+Date:    0x4B0091E0 [Sun Nov 15 23:42:24 2009 UTC]
+EP:      0x401020 (.text)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x2684       0x2800       7.482945    [SUSPICIOUS]
+.data      0x4000       0x1b00       0x1c00       7.856240    [SUSPICIOUS]
+.bss       0x6000       0x40         0x0          0.000000    [SUSPICIOUS]
+.idata     0x7000       0x14         0x200        0.000000    
+
+############################################################
+Record 12
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/sdra64.exe
+Size:    124416 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a99889e994e8e2248f5779b54505aa81
+SHA1:    93437058ddfdd2c97b3ff07e3c7853bd0441065c
+ssdeep:  3072:CNIl9M0O6M6PYpfaUmhylsDXczSYilhnJ+toJ+T0nW1paaM4+E67+:C0M0OKPkTEcDiho54
+Date:    0x471FB71B [Wed Oct 24 21:20:27 2007 UTC]
+EP:      0x416c33 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_VERSION         0x23058      0x290        MS Windows COFF PA-RISC object file
+
+Suspicious IAT alerts
+============================================================
+ReadProcessMemory
+WriteProcessMemory
+CreateProcessW
+VirtualAllocEx
+CreateProcessA
+WinExec
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x16028      0x16200      6.919708    
+.rdata     0x18000      0x7828       0x7a00       5.768020    
+.data      0x20000      0x212a       0x200        0.662189    [SUSPICIOUS]
+.rsrc      0x23000      0x2e8        0x400        2.648429    
+
+Version info
+============================================================
+LegalCopyright: Gaaqnewicyvee
+InternalName: Maamduas
+CompanyName: Leepcaseuzevwee
+LegalTrademarks: Eludpuuhcaidgyv
+ProductName: Toxiwoewikaxoq
+FileDescription: Kunuwihycuap
+OriginalFilename: Calyi
+Translation: 0x0409 0x04b0
+
+############################################################
+Record 13
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/0a374623f102930d3f1b6615cd3ef0f3.exe
+Size:    80384 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0a374623f102930d3f1b6615cd3ef0f3
+SHA1:    3b8f538048a3ee74724eedbe1a8f30d08b6fb271
+ssdeep:  1536:L/KXY4acJ13290rJGLdUrGBkrVWDqmL92l8i5O85zZ3:L/Ko4acJ5d+dUrRrVWDfclNTtZ
+Date:    0x4ABD4B09 [Fri Sep 25 22:58:17 2009 UTC]
+EP:      0x401baf (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_CURSOR          0x113b8      0x25         data
+RT_CURSOR          0x113dd      0x16         data
+RT_CURSOR          0x113f3      0x2d         data
+RT_DIALOG          0x11420      0x25         data
+RT_STRING          0x11445      0x15         data
+RT_STRING          0x1145a      0x1d         data
+RT_FONTDIR         0x11477      0x27         SysEx File - SIEL
+RT_FONT            0x1149e      0x1d         data
+RT_ACCELERATOR     0x114bb      0x31         data
+RT_RCDATA          0x114ec      0x44b6       data
+RT_MESSAGETABLE    0x159a2      0x1b         data
+RT_MESSAGETABLE    0x159bd      0x25         data
+RT_MESSAGETABLE    0x159e2      0x2a         data
+RT_MESSAGETABLE    0x15a0c      0x21         data
+RT_MANIFEST        0x15a2d      0x175        ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+============================================================
+WriteProcessMemory
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x5150       0x5200       7.819080    [SUSPICIOUS]
+.rdata     0x7000       0x4cbe       0x4e00       7.752812    [SUSPICIOUS]
+.data      0xc000       0x46bf       0x4800       7.822765    [SUSPICIOUS]
+.rsrc      0x11000      0x4ba2       0x4c00       7.774629    [SUSPICIOUS]
+.reloc     0x16000      0x3c         0x200        0.958418    [SUSPICIOUS]
+
+############################################################
+Record 14
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/01C96CD1852C58C0_BN1_tmp.PE
+Size:    41472 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     256a0057a05310158d6d20a00a508ffa
+SHA1:    a4945456e1dac3ccdc184e264a8ffb1f8997b06c
+ssdeep:  768:Bovu4D60xkuxQK0HWA4bci5neOnNCxpW2ghFHTVMgscZ4Rw:Bqu4D5xkuxQVUci5eOnExY2grzVTsx
+Date:    0x48B531AE [Wed Aug 27 10:51:26 2008 UTC]
+EP:      0x8002270 (.text)
+
+Signature scans
+============================================================
+YARA: embedded_exe
+   0x4e => This program cannot be run in DOS mode
+   0x22ae => This program cannot be run in DOS mode
+   0x582e => This program cannot be run in DOS mode
+
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+BIN                0x4060       0x7b80       MS-DOS executable PE  for MS Windows (native) Intel 80386 32-bit
+
+Suspicious IAT alerts
+============================================================
+StartServiceA
+CreateServiceA
+CreateProcessA
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x1ab6       0x1c00       5.918866    
+.data      0x3000       0x32c        0x200        0.162990    [SUSPICIOUS]
+.rsrc      0x4000       0x7be0       0x7c00       6.557290    
+.reloc     0xc000       0x240        0x400        3.119426    
+
+############################################################
+Record 15
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/1your_exe.exe
+Size:    21504 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     faf4b8c32b3f43fbb8fcfd538c1bd86f
+SHA1:    2847703773e04540dce5bc9ba9903e779672aca3
+ssdeep:  384:Rftxm7JVyEK6PM7MirduoE6KBBb8h2nPQVhdyTJybGiek:rxm7icM7ModhRib8SPQFylybD
+Date:    0x46C14B1A [Tue Aug 14 06:26:34 2007 UTC]
+EP:      0x4040f3 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_ICON            0x7118       0x130        data
+RT_ICON            0x7248       0x2e8        data
+RT_GROUP_ICON      0x7530       0x22         MS Windows icon resource - 2 icons, 32x32, 2-colors
+RT_VERSION         0x7552       0x2ac        data
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.textbss   0x1000       0x3000       0x0          0.000000    [SUSPICIOUS]
+.text      0x4000       0x700        0x800        4.276134    
+.rdata     0x5000       0x1be        0x200        4.060751    
+.data      0x6000       0x96         0x200        2.638882    
+.rsrc      0x7000       0x4191       0x4200       7.117988    [SUSPICIOUS]
+.debug     0xc000       0x197        0x200        1.559745    
+
+############################################################
+Record 16
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/01d3758d442e3279532dc8de7565390d684b9cc1.exe
+Size:    422400 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2158294fd3276f522923c1a083c2b282
+SHA1:    01d3758d442e3279532dc8de7565390d684b9cc1
+ssdeep:  6144:4rIx6zNhlY7zJc3VesoteSAV/EfjAyGXElheAt+5R0q0LG1OHp+SCcq/vBEF:xx6zNTKJSVot8sNk5etGWp3um
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x45adcc (CODE) [SUSPICIOUS]
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_CURSOR          0x69650      0x134        data
+RT_CURSOR          0x69784      0x134        data
+RT_CURSOR          0x698b8      0x134        data
+RT_CURSOR          0x699ec      0x134        data
+RT_CURSOR          0x69b20      0x134        data
+RT_CURSOR          0x69c54      0x134        data
+RT_CURSOR          0x69d88      0x134        data
+RT_STRING          0x69ebc      0x204        data
+RT_STRING          0x6a0c0      0x464        data
+RT_STRING          0x6a524      0xc0         DBase 3 data file (6488179 records)
+RT_STRING          0x6a5e4      0xfc         Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x6a6e0      0x388        data
+RT_STRING          0x6aa68      0x3e8        data
+RT_STRING          0x6ae50      0x390        data
+RT_STRING          0x6b1e0      0x3d0        DBase 3 index file
+RT_STRING          0x6b5b0      0xf4         data
+RT_STRING          0x6b6a4      0xc4         DBase 3 data file (7929953 records)
+RT_STRING          0x6b768      0x2e0        data
+RT_STRING          0x6ba48      0x35c        data
+RT_STRING          0x6bda4      0x2b4        data
+RT_RCDATA          0x6c058      0x10         data
+RT_RCDATA          0x6c068      0x29c        data
+RT_GROUP_CURSOR    0x6c304      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c318      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c32c      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c340      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c354      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c368      0x14         Lotus 1-2-3
+RT_GROUP_CURSOR    0x6c37c      0x14         Lotus 1-2-3
+RT_MANIFEST        0x6c390      0x154        XML
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+CODE       0x1000       0x59ee0      0x5a000      6.572541    
+DATA       0x5b000      0x10c8       0x1200       4.019771    
+BSS        0x5d000      0xf3d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x5e000      0x2362       0x2400       5.012309    
+.tls       0x61000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x62000      0x18         0x200        0.192057    [SUSPICIOUS]
+.reloc     0x63000      0x5eb8       0x6000       6.654072    
+.rsrc      0x69000      0x3600       0x3600       3.843703    
+
+############################################################
+Record 17
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/39ae5ec36b075fe7b70e6ef03dd8be05c3d62095.sys
+Size:    3328 bytes
+Type:    MS-DOS executable PE  for MS Windows (native) Intel 80386 32-bit
+MD5:     43765d8759cab4d99b04223d4a4cc545
+SHA1:    39ae5ec36b075fe7b70e6ef03dd8be05c3d62095
+ssdeep:  48:Q7yTU7tzr6VK1m/P+YSK7Gm2TyhIVvRBo9laGcO:eyT+r6VK0/P+YV7GmoyaVZW9lgO
+Date:    0x48D1CCCC [Thu Sep 18 03:36:44 2008 UTC]
+EP:      0x10b05 (INIT)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x480        0x4d9        0x500        5.506288    
+.rdata     0x980        0x9c         0x100        3.355057    
+.data      0xa80        0x18         0x80         0.378516    [SUSPICIOUS]
+INIT       0xb00        0x138        0x180        4.444669    
+.reloc     0xc80        0x6e         0x80         4.170806    
+
+############################################################
+Record 18
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/6d28ca498570874bcae9ec9cfe320afc7c84d6a20a59d5696d7c644321271794
+Size:    25600 bytes
+Type:    MS-DOS executable PE  for MS Windows (DLL) (GUI) Intel 80386 32-bit
+MD5:     1092d39b103ab295cd1c81a3af099fe8
+SHA1:    cb614d829b8dc71e582b495ecedfab5dd638eab3
+ssdeep:  384:+VnQTjhQ8owXdoZZcDpRwT+sPDGqLXwHti/DUG7+D6M+hPqJ:+VnQB9mZZms7xLiirL6L+1O
+Date:    0x4B032B3C [Tue Nov 17 23:01:16 2009 UTC]
+EP:      0x100011d4 (.text)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x37d1       0x3800       6.642564    
+.rdata     0x5000       0x1947       0x1a00       4.810755    
+.data      0x7000       0x4f54       0xa00        2.037430    
+.reloc     0xc000       0x396        0x400        4.997508    
+
+############################################################
+Record 19
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/22a9c61c71fa5cef552a94e479dfe41e
+Size:    72704 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit, UPX compressed
+MD5:     22a9c61c71fa5cef552a94e479dfe41e
+SHA1:    14ac258df52d0131c5984b00dc14960ee94e6aad
+ssdeep:  1536:JxXOg1j5jBWSNzrpGhDZuiq3AC+wcnG4Pqvtuz+QZO3b:Jxewjx//wOiq3BcnG4SaU3
+Date:    0x49277573 [Sat Nov 22 02:58:59 2008 UTC]
+EP:      0x4292e0 (UPX1) [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+UPX0       0x1000       0x17000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x18000      0x12000      0x11600      7.912755    [SUSPICIOUS]
+UPX2       0x2a000      0x1000       0x200        2.713656    
+
+############################################################
+Record 20
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/01C96CD01D196A30_csrssc_exe.PE
+Size:    22017 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     51569cfa6bc978862a783084d87b9b0e
+SHA1:    8b6ac2ba256d1235d48e785316154920b455adf8
+ssdeep:  384:aIz9JMdhe87mKRKzJTvcZejdBn1BNBJ/XLG8NTskMH/Pr/lqbALFkVJB7CZ:PUa8RogejdpJvjWk6nrYbAwjQ
+Date:    0x4948F671 [Wed Dec 17 12:54:09 2008 UTC]
+EP:      0x401008 (.code)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.code      0x1000       0x1000       0x400        3.647355    
+.data      0x2000       0x5000       0x4600       7.928085    [SUSPICIOUS]
+.idata     0x7000       0x21000      0x800        4.472536    
+
+############################################################
+Record 21
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/9d696cc46fc113ca1468cd04d901601fcfecd6a0.exe
+Size:    368681 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     932ac0fb97fba547579a0a4e5f702841
+SHA1:    9d696cc46fc113ca1468cd04d901601fcfecd6a0
+ssdeep:  6144:x/D9fGvB7zCtHk/XDw9j4WWqajJ88qtjmAQsIETy2r:x5fAzCtH0c9jNQ1mmD7U
+Date:    0x4A0ACFDE [Wed May 13 13:49:18 2009 UTC]
+EP:      0x401c90 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_ICON            0x18ac0      0x130        data
+RT_ICON            0x18bf0      0x2e8        data
+RT_ICON            0x18ed8      0x128        GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x19000      0x30         MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x19030      0x234        data
+None               0x19264      0x1          very short file (no magic)
+None               0x19268      0x4          data
+None               0x1926c      0x4          DOS executable (device driver) for DOS
+None               0x19270      0x40a00      data
+None               0x59c70      0x1          very short file (no magic)
+None               0x59c74      0xc          ASCII text, with no line terminators
+None               0x59c80      0x6          ASCII text, with no line terminators
+None               0x59c88      0x1          very short file (no magic)
+None               0x59c8c      0x1          very short file (no magic)
+None               0x59c90      0x1          very short file (no magic)
+None               0x59c94      0x1          very short file (no magic)
+None               0x59c98      0x1          very short file (no magic)
+None               0x59c9c      0x1          very short file (no magic)
+None               0x59ca0      0x1          very short file (no magic)
+None               0x59ca4      0xe          ASCII text, with no line terminators
+None               0x59cb4      0x1          very short file (no magic)
+None               0x59cb8      0x4c         ASCII text, with no line terminators
+None               0x59d04      0x4          DOS executable (device driver) for DOS
+None               0x59d08      0x16         ASCII text, with no line terminators
+None               0x59d20      0x1          very short file (no magic)
+None               0x59d24      0x1          very short file (no magic)
+None               0x59d28      0x1          very short file (no magic)
+None               0x59d2c      0x1          very short file (no magic)
+None               0x59d30      0x1          very short file (no magic)
+None               0x59d34      0x1          very short file (no magic)
+None               0x59d38      0x20         ASCII text, with no line terminators
+None               0x59d58      0x1          very short file (no magic)
+None               0x59d5c      0xa          ASCII text, with no line terminators
+None               0x59d68      0x14         ASCII text, with no line terminators
+None               0x59d7c      0x2          ASCII text, with no line terminators
+None               0x59d80      0x5a         ASCII text, with no line terminators
+None               0x59ddc      0x1          very short file (no magic)
+None               0x59de0      0x1          very short file (no magic)
+None               0x59de4      0x4c         ASCII text, with no line terminators
+None               0x59e30      0x1          very short file (no magic)
+None               0x59e34      0x1          very short file (no magic)
+None               0x59e38      0x46         ASCII text, with no line terminators
+None               0x59e80      0x1          very short file (no magic)
+None               0x59e84      0x1          very short file (no magic)
+None               0x59e88      0x68         ASCII text, with no line terminators
+None               0x59ef0      0x1          very short file (no magic)
+None               0x59ef4      0x1          very short file (no magic)
+None               0x59ef8      0x1          very short file (no magic)
+None               0x59efc      0x1          very short file (no magic)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0x15210      0x16000      5.570433    
+.data      0x17000      0x640        0x1000       0.000000    
+.rsrc      0x18000      0x41f00      0x42000      7.986465    [SUSPICIOUS]
+
+Version info
+============================================================
+InternalName: fsVsTHtYaXqePM
+FileVersion: 1.00
+CompanyName: Microsoft
+ProductName: uKofRiVuHHC
+ProductVersion: 1.00
+OriginalFilename: fsVsTHtYaXqePM.exe
+
+############################################################
+Record 22
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/29b01e816f0ba3735aeaa3517d653ccbc6342577.exe
+Size:    45568 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e48dac8c01d2efcc0bb721fe708dd100
+SHA1:    29b01e816f0ba3735aeaa3517d653ccbc6342577
+ssdeep:  768:wc+ceWdva7R8FWUNa/pja6dTj3nCkuOVyXxauh7G0BhdQ6wukN53Gr:wseMa7aFWka/pja6dTrPuz0uh75M7r
+Date:    0x455918A1 [Tue Nov 14 01:15:13 2006 UTC]
+EP:      0x40b1a0 (.text)
+
+Resource entries
+============================================================
+Name               RVA          Size         Type
+------------------------------------------------------------
+RT_ICON            0xc120       0x2e8        data
+RT_ICON            0xc420       0x2e8        data
+RT_GROUP_ICON      0xc408       0x14         MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xc708       0x14         MS Windows icon resource - 1 icon
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.text      0x1000       0xa45a       0xa600       6.187483    
+.rsrc      0xc000       0x720        0x800        4.361387    
+
+############################################################
+Record 23
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/7d927a57d0488f56e46f2073327bd1983b7e413d.exe
+Size:    26624 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5ae12012650e0dfe5918419609dd4b54
+SHA1:    7d927a57d0488f56e46f2073327bd1983b7e413d
+ssdeep:  768:DKYucUODgNPgwTNYmCzSz2ajalZ2iX04Z8VDZ4i:xBUOD4IwTNYtjga/2i04g
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x406774 (CODE) [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+CODE       0x1000       0x5790       0x5800       6.651814    
+DATA       0x7000       0x164        0x200        4.326883    
+BSS        0x8000       0x695        0x0          0.000000    [SUSPICIOUS]
+.idata     0x9000       0x2e0        0x400        3.479382    
+.tls       0xa000       0x4          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xb000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0xc000       0x18c        0x200        0.000000    
+.rsrc      0xd000       0x10         0x200        0.000000    
+
+############################################################
+Record 24
+############################################################
+
+Meta-data
+============================================================
+File:    /home/mhl/testmalware/944983008.exe
+Size:    22017 bytes
+Type:    MS-DOS executable PE  for MS Windows (GUI) Intel 80386 32-bit
+MD5:     51569cfa6bc978862a783084d87b9b0e
+SHA1:    8b6ac2ba256d1235d48e785316154920b455adf8
+ssdeep:  384:aIz9JMdhe87mKRKzJTvcZejdBn1BNBJ/XLG8NTskMH/Pr/lqbALFkVJB7CZ:PUa8RogejdpJvjWk6nrYbAwjQ
+Date:    0x4948F671 [Wed Dec 17 12:54:09 2008 UTC]
+EP:      0x401008 (.code)
+
+Sections
+============================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+------------------------------------------------------------
+.code      0x1000       0x1000       0x400        3.647355    
+.data      0x2000       0x5000       0x4600       7.928085    [SUSPICIOUS]
+.idata     0x7000       0x21000      0x800        4.472536    
+

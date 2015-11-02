@@ -1,0 +1,23 @@
+Script
+    _JBSetSystem("xp")
+    _JBStartAnalysis()
+    _JBStartSniffer()
+    
+    ; identify your proxy server IP and port
+    $ProxyServer = "1.2.3.4:8080"
+    
+    ; alter the machine’s proxy settings
+    RegWrite(
+     "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings", 
+     "ProxyServer", "REG_SZ", $ProxyServer)
+        
+    RegWrite(
+     "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings", 
+     "ProxyEnable", "REG_DWORD", 1)
+    
+    _JBLoadProvidedBin()
+    Sleep(10000)
+    _JBStopSniffer()
+    _JBStopAnalysis()
+EndScript
+

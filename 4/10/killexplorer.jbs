@@ -1,0 +1,49 @@
+Script
+    Func KillProcess($process)
+        Local $hproc
+        Local $pid = ProcessExists($process)
+        If $pid = 0 Then
+            Return 
+        EndIf
+    
+        $hproc = DllCall(
+            "kernel32.dll", "hwnd", "OpenProcess", 
+            "dword", BitOR(0x0400,0x0004,0x0001), 
+            "int", 0, "dword", $pid)
+    
+        If UBound($hproc) > 0 Then
+            If $hproc[0] = 0 Then Return 
+        Else
+            Return
+        EndIf
+    
+        $hproc = $hproc[0]
+    
+        Local $code = DllStructCreate("dword")
+    
+        $ret = DllCall(
+            "kernel32.dll", "int", "TerminateProcess", 
+            "hwnd", $hproc, "uint", DllStructGetData($code,1))
+        Return 
+    EndFunc
+  
+    _JBSetSystem("xp")
+    _JBStartAnalysis()
+    _JBStartSniffer()
+    
+    ; copy the malware 
+    $NewFile = @SystemDir & "/" & "malware.dll"
+    FileCopy("c:\malware.dll", $NewFile, 1)
+    
+    ; add the AppInit_DLLs entry
+    RegWrite(
+        "HKLM\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows", 
+        "AppInit_DLLs", "REG_SZ", "malware.dll")
+        
+    ; terminate the process so it restarts
+    KillProcess("explorer.exe")
+
+    Sleep(10000)
+    _JBStopSniffer()
+    _JBStopAnalysis()
+EndScript

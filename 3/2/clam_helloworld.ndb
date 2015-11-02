@@ -1,0 +1,5 @@
+TestHelloWorld:0:*:68656c6c6f20776f726c64
+TestHelloWorldAnySeperator:0:*:68656c6c6f??776f726c64
+TestHelloWorldOffset45:0:45:68656c6c6f20776f726c64
+TestHelloWorldBetween200And250:0:200,50:68656c6c6f20776f726c64
+TestHelloWorldAnyDistance:0:*:68656c6c6f*776f726c64

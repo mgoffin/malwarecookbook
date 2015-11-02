@@ -1,0 +1,25 @@
+<table width="300" align="center">
+<tr>
+<form method="post" action="checklogin.php">
+<td>
+<table width="100%">
+<tr>
+<td colspan="2"><b>Member Login</b></td>
+</tr>
+<tr>
+<td>Username:</td>
+<td><input name="user" type="text"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input name="pass" type="text"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="submit" name="Submit" value="Login"></td>
+</tr>
+</table>
+</td>
+</form>
+</tr>
+</table>

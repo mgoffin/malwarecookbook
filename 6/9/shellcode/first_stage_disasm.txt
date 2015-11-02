@@ -1,0 +1,248 @@
+0x00000000 (01) 41                   INC ECX
+0x00000001 (01) 43                   INC EBX
+0x00000002 (01) 49                   DEC ECX
+0x00000003 (01) 4b                   DEC EBX
+0x00000004 (02) eb 11                JMP 0x17
+0x00000006 (01) fc                   CLD
+0x00000007 (01) 5b                   POP EBX
+0x00000008 (01) 4b                   DEC EBX
+0x00000009 (02) 33c9                 XOR ECX, ECX
+0x0000000b (04) 66 b9 b001           MOV CX, 0x1b0
+0x0000000f (04) 80340b f9            XOR BYTE [EBX+ECX], 0xf9
+0x00000013 (02) e2 fa                LOOP 0xf
+0x00000015 (02) eb 05                JMP 0x1c
+0x00000017 (05) e8 ebffffff          CALL 0x7
+0x0000001c (02) 11f9                 ADC ECX, EDI
+0x0000001e (01) f9                   STC
+0x0000001f (01) f9                   STC
+0x00000020 (01) f9                   STC
+0x00000021 (05) a3 ac721578          MOV [0x781572ac], EAX
+0x00000026 (05) 15 9dfdf9f9          ADC EAX, 0xf9f9fd9d
+0x0000002b (02) 72 0d                JB 0x3a
+0x0000002d (03) 1169 f8              ADC [ECX-0x8], EBP
+0x00000030 (01) f9                   STC
+0x00000031 (01) f9                   STC
+0x00000032 (02) 72 01                JB 0x35
+0x00000034 (02) 1116                 ADC [ESI], EDX
+0x00000036 (01) f9                   STC
+0x00000037 (01) f9                   STC
+0x00000038 (01) f9                   STC
+0x00000039 (02) 70 ff                JO 0x3a
+0x0000003b (01) 06                   PUSH ES
+0x0000003c (01) cf                   IRET
+0x0000003d (01) 91                   XCHG ECX, EAX
+0x0000003e (01) 54                   PUSH ESP
+0x0000003f (07) 628426 11edf8f9      BOUND EAX, [ESI-0x60712ef]
+0x00000046 (01) f9                   STC
+0x00000047 (02) 70 bf                JO 0x8
+0x00000049 (01) f5                   CMC
+0x0000004a (01) 06                   PUSH ES
+0x0000004b (01) cf                   IRET
+0x0000004c (01) 91                   XCHG ECX, EAX
+0x0000004d (02) d0eb                 SHR BL, 0x1
+0x0000004f (01) 3f                   AAS
+0x00000050 (01) af                   SCASD
+0x00000051 (02) 11fc                 ADC ESP, EDI
+0x00000053 (01) f8                   CLC
+0x00000054 (01) f9                   STC
+0x00000055 (01) f9                   STC
+0x00000056 (02) 70 bf                JO 0x17
+0x00000058 (05) e9 06cf91a0          JMP 0xffffffffa091cf63
+0x0000005d (01) c5                   DB 0xc5
+0x0000005e (06) fe82 110ff9f9        INC BYTE [EDX-0x606f0ef]
+0x00000064 (01) f9                   STC
+0x00000065 (02) 70 bf                JO 0x26
+0x00000067 (01) ed                   IN EAX, DX
+0x00000068 (01) 06                   PUSH ES
+0x00000069 (01) cf                   IRET
+0x0000006a (01) 91                   XCHG ECX, EAX
+0x0000006b (02) 8721                 XCHG [ECX], ESP
+0x0000006d (06) 1b8a 111ef9f9        SBB ECX, [EDX-0x606e1ef]
+0x00000073 (01) f9                   STC
+0x00000074 (02) 70 bf                JO 0x35
+0x00000076 (02) cd ca                INT 0xca
+0x00000078 (02) 3012                 XOR [EDX], DL
+0x0000007a (01) fa                   CLI
+0x0000007b (02) 72 b7                JB 0x34
+0x0000007d (03) c57a 38              LDS EDI, DWORD [EDX+0x38]
+0x00000080 (01) fd                   STD
+0x00000081 (02) a8 93                TEST AL, 0x93
+0x00000083 (01) f9                   STC
+0x00000084 (02) a8 06                TEST AL, 0x6
+0x00000086 (01) af                   SCASD
+0x00000087 (01) f5                   CMC
+0x00000088 (05) a0 7a01068d          MOV AL, [0x8d06017a]
+0x0000008d (02) 09c4                 OR ESP, EAX
+0x0000008f (05) b9 e6f9f98f          MOV ECX, 0x8ff9f9e6
+0x00000094 (03) 1070 b7              ADC [EAX-0x49], DH
+0x00000097 (06) c593 f993f993        LDS EDX, DWORD [EBX-0x6c066c07]
+0x0000009d (01) f9                   STC
+0x0000009e (01) 93                   XCHG EBX, EAX
+0x0000009f (01) fb                   STI
+0x000000a0 (01) 93                   XCHG EBX, EAX
+0x000000a1 (01) f9                   STC
+0x000000a2 (01) 06                   PUSH ES
+0x000000a3 (02) 8fc5                 POP EBP
+0x000000a5 (01) 06                   PUSH ES
+0x000000a6 (01) af                   SCASD
+0x000000a7 (05) e9 70bfbd7a          JMP 0x7abdc01c
+0x000000ac (02) 01f9                 ADD ECX, EDI
+0x000000ae (02) 8d32                 LEA ESI, [EDX]
+0x000000b0 (01) 93                   XCHG EBX, EAX
+0x000000b1 (01) f9                   STC
+0x000000b2 (01) 93                   XCHG EBX, EAX
+0x000000b3 (01) f9                   STC
+0x000000b4 (01) 93                   XCHG EBX, EAX
+0x000000b5 (01) f9                   STC
+0x000000b6 (01) 93                   XCHG EBX, EAX
+0x000000b7 (01) fd                   STD
+0x000000b8 (01) 06                   PUSH ES
+0x000000b9 (01) 8f                   DB 0x8f
+0x000000ba (05) bd 06afed70          MOV EBP, 0x70edaf06
+0x000000bf (05) bf b17a01f9          MOV EDI, 0xf9017ab1
+0x000000c4 (04) 8d4c78 c1            LEA ECX, [EAX+EDI*2-0x3f]
+0x000000c8 (06) dca9 bdbf72b7        FSUBR QWORD [ECX-0x488d4043]
+0x000000ce (07) c58c54 7841f9eb      LDS ECX, DWORD [ESP+EDX*2-0x1406be88]
+0x000000d5 (01) f9                   STC
+0x000000d6 (01) f9                   STC
+0x000000d7 (05) a9 9da9bd8c          TEST EAX, 0x8cbda99d
+0x000000dc (01) 58                   POP EAX
+0x000000dd (02) 78 41                JS 0x120
+0x000000df (01) fd                   STD
+0x000000e0 (02) eb f9                JMP 0xdb
+0x000000e2 (01) f9                   STC
+0x000000e3 (01) 16                   PUSH SS
+0x000000e4 (01) 07                   POP ES
+0x000000e5 (03) 1357 8c              ADC EDX, [EDI-0x74]
+0x000000e8 (01) 6c                   INSB
+0x000000e9 (01) 40                   INC EAX
+0x000000ea (01) f9                   STC
+0x000000eb (01) ff                   DB 0xff
+0x000000ec (01) f9                   STC
+0x000000ed (01) f9                   STC
+0x000000ee (02) 78 15                JS 0x105
+0x000000f0 (01) f9                   STC
+0x000000f1 (01) f1                   INT1
+0x000000f2 (01) f9                   STC
+0x000000f3 (01) f9                   STC
+0x000000f4 (01) af                   SCASD
+0x000000f5 (01) ae                   SCASB
+0x000000f6 (02) 72 09                JB 0x101
+0x000000f8 (02) 78 3f                JS 0x139
+0x000000fa (05) e9 ebf9f972          JMP 0x72f9faea
+0x000000ff (05) 3d 7a39f172          CMP EAX, 0x72f1397a
+0x00000104 (02) 010a                 ADD [EDX], ECX
+0x00000106 (01) 5d                   POP EBP
+0x00000107 (01) 40                   INC EAX
+0x00000108 (01) f9                   STC
+0x00000109 (01) ff                   DB 0xff
+0x0000010a (01) f9                   STC
+0x0000010b (01) f9                   STC
+0x0000010c (02) b0 b0                MOV AL, 0xb0
+0x0000010e (02) b0 b0                MOV AL, 0xb0
+0x00000110 (02) 78 cd                JS 0xdf
+0x00000112 (01) f1                   INT1
+0x00000113 (01) 17                   POP SS
+0x00000114 (01) 07                   POP ES
+0x00000115 (01) 07                   POP ES
+0x00000116 (01) 16                   PUSH SS
+0x00000117 (02) 7c 30                JL 0x149
+0x00000119 (02) 8c08                 MOV WORD [EAX], CS
+0x0000011b (01) a6                   CMPSB
+0x0000011c (01) a7                   CMPSD
+0x0000011d (01) 06                   PUSH ES
+0x0000011e (02) 8fc5                 POP EBP
+0x00000120 (01) 06                   PUSH ES
+0x00000121 (01) 8f                   DB 0x8f
+0x00000122 (02) b1 06                MOV CL, 0x6
+0x00000124 (01) 8f                   DB 0x8f
+0x00000125 (05) bd 0619acaf          MOV EBP, 0xafac1906
+0x0000012a (01) 9d                   POPF
+0x0000012b (01) 58                   POP EAX
+0x0000012c (01) c9                   LEAVE
+0x0000012d (01) f9                   STC
+0x0000012e (01) f9                   STC
+0x0000012f (01) f9                   STC
+0x00000130 (02) 7c 39                JL 0x16b
+0x00000132 (06) 81ea c772b9f5        SUB EDX, 0xf5b972c7
+0x00000138 (01) c7                   DB 0xc7
+0x00000139 (02) 72 89                JB 0xc4
+0x0000013b (02) e5 c7                IN EAX, 0xc7
+0x0000013d (02) 72 a7                JB 0xe6
+0x0000013f (01) f1                   INT1
+0x00000140 (01) 54                   PUSH ESP
+0x00000141 (01) c7                   DB 0xc7
+0x00000142 (02) 72 91                JB 0xd5
+0x00000144 (01) f1                   INT1
+0x00000145 (02) 12f4                 ADC DH, AH
+0x00000147 (01) c7                   DB 0xc7
+0x00000148 (02) 72 b9                JB 0x103
+0x0000014a (02) cd c7                INT 0xc7
+0x0000014c (02) 72 51                JB 0x19f
+0x0000014e (01) 41                   INC ECX
+0x0000014f (01) f9                   STC
+0x00000150 (01) f9                   STC
+0x00000151 (01) f9                   STC
+0x00000152 (03) ca 2272              RETF 0x7222
+0x00000155 (02) 3c a7                CMP AL, 0xa7
+0x00000157 (01) a4                   MOVSB
+0x00000158 (02) 3bfd                 CMP EDI, EBP
+0x0000015a (01) f9                   STC
+0x0000015b (01) aa                   STOSB
+0x0000015c (01) ac                   LODSB
+0x0000015d (01) af                   SCASD
+0x0000015e (01) ae                   SCASB
+0x0000015f (01) cf                   IRET
+0x00000160 (02) 72 95                JB 0xf7
+0x00000162 (02) dde1                 FUCOM
+0x00000164 (01) cf                   IRET
+0x00000165 (02) 72 bc                JB 0x123
+0x00000167 (01) c5                   DB 0xc5
+0x00000168 (01) cf                   IRET
+0x00000169 (02) 72 ad                JB 0x118
+0x0000016b (01) fc                   CLD
+0x0000016c (06) 81fa 2cc772b3        CMP EDX, 0xb372c72c
+0x00000172 (02) e1 c7                LOOPZ 0x13b
+0x00000174 (02) 72 a3                JB 0x119
+0x00000176 (02) d9fa                 FSQRT
+0x00000178 (02) 24 1a                AND AL, 0x1a
+0x0000017a (06) c5b0 c772cd72        LDS ESI, DWORD [EAX+0x72cd72c7]
+0x00000180 (01) fa                   CLI
+0x00000181 (02) 0c ca                OR AL, 0xca
+0x00000183 (01) 06                   PUSH ES
+0x00000184 (05) 05 ca3955c3          ADD EAX, 0xc35539ca
+0x00000189 (05) 3d 8dfe3836          CMP EAX, 0x3638fe8d
+0x0000018e (01) f4                   HLT
+0x0000018f (01) fa                   CLI
+0x00000190 (02) 0112                 ADD [EDX], EDX
+0x00000192 (02) 0bcf                 OR ECX, EDI
+0x00000194 (03) c2 85dd              RET 0xdd85
+0x00000197 (01) ed                   IN EAX, DX
+0x00000198 (02) 8c26                 MOV WORD [ESI], FS
+0x0000019a (02) 72 3b                JB 0x1d7
+0x0000019c (02) 7a 39                JP 0x1d7
+0x0000019e (02) ddc7                 FFREE ST(7)
+0x000001a0 (02) 72 e1                JB 0x183
+0x000001a2 (01) fa                   CLI
+0x000001a3 (02) 24 9f                AND AL, 0x9f
+0x000001a5 (01) c7                   DB 0xc7
+0x000001a6 (02) 72 f5                JB 0x19d
+0x000001a8 (02) b2 c7                MOV DL, 0xc7
+0x000001aa (02) 72 a3                JB 0x14f
+0x000001ac (02) e5 fa                IN EAX, 0xfa
+0x000001ae (02) 24 c7                AND AL, 0xc7
+0x000001b0 (02) 72 fd                JB 0x1af
+0x000001b2 (02) 72 fa                JB 0x1ae
+0x000001b4 (02) 3c 12                CMP AL, 0x12
+0x000001b6 (01) fb                   STI
+0x000001b7 (03) ca 3972              RETF 0x7239
+0x000001ba (02) 2c a6                SUB AL, 0xa6
+0x000001bc (01) a7                   CMPSD
+0x000001bd (01) a4                   MOVSB
+0x000001be (05) a2 3bf1f911          MOV [0x11f9f13b], AL
+0x000001c3 (01) f9                   STC
+0x000001c4 (01) f9                   STC
+0x000001c5 (01) f9                   STC
+0x000001c6 (01) f9                   STC
+0x000001c7 (05) a1 7a39fc3a          MOV EAX, [0x3afc397a]
+0x000001cc (01) 0a                   DB 0xa

@@ -1,0 +1,37 @@
+## CONTENTS
+
+This DVD contains evidence files, tools, source code, and memory samples for the 
+recipes in Malware Analyst's Cookbook. 
+
+## CHECKSUMS
+
+See the CHECKSUMS file. You must note that just because a checksum matches, the file 
+isn't necessarily clean. Although we don't intentionally include any malicious code
+on the DVD, when in doubt - you should re-compile the tools from source using your 
+own development environemnt. 
+
+## LICENSE  
+
+See the COPYING file
+
+## CONTACT 
+
+Please send feature requests and bug reports to either address:
+
+malwarecookbook@gmail.com
+michael.ligh@mnin.org 
+
+## CUSTOMER CARE
+
+If you have trouble with the DVD-ROM, please call the Wiley Product
+Technical Support phone number at (800) 762-2974. Outside the United
+States, call 1(317) 572-3994. You can also contact Wiley Product
+Technical Support at http://support.wiley.com. John Wiley & Sons will
+provide technical support only for installation and other general
+quality control items. For technical support on the applications
+themselves, consult the program's vendor or author.
+
+To place additional orders or to request information about other Wiley
+products, please call (877) 762-2974.
+
+

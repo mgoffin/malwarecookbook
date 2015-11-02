@@ -1,0 +1,17 @@
+Script
+    ; choose Windows XP
+    _JBSetSystem("xp")
+    ; start the analysis
+    _JBStartAnalysis()
+    ; start the sniffer
+    _JBStartSniffer()
+    ; execute the uploaded malware 
+    _JBLoadProvidedBin()
+    ; let the malware run for 120 seconds
+    Sleep(120)
+    ; stop the sniffer 
+    _JBStopSniffer()
+    ; stop the analysis
+    _JBStopAnalysis()
+EndScript
+

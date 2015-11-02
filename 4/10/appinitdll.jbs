@@ -1,0 +1,29 @@
+Script
+    ; access to the IE-related functions
+    #include <IE.au3>
+    
+    _JBSetSystem("xp")
+    _JBStartAnalysis()
+    _JBStartSniffer()
+    
+    ; copy the submitted file to system directory
+    $NewFile = @SystemDir & "/" & "malware.dll"
+    FileCopy("c:\malware.dll", $NewFile, 1)
+    
+    ; add the AppInit_DLLs entry
+    RegWrite(
+        "HKLM\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Windows",
+        "AppInit_DLLs", "REG_SZ", "malware.dll")
+    
+    ; browse to this site in IE
+    $oIE = _IECreate("http://banksite.com")
+    
+    Sleep(120)
+    
+    ; done with IE now
+    _IEQuit ($oIE)
+    
+    _JBStopSniffer()
+    _JBStopAnalysis()
+EndScript
+

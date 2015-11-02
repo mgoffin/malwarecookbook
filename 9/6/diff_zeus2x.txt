@@ -1,0 +1,407 @@
+
+------------------------------
+ HandleDiff v0.1 
+------------------------------
+
+Taking first snapshot, wait a moment...
+Sleeping for 60 seconds
+Taking second snapshot, wait a moment...
+Comparing handles now.
+-------------------------------
+[System Process] (pid 0)
+OldHandles: 0
+NewHandles: 0
+[+]            DLL          C:\WINDOWS\system32\uxtheme.dll
+[+]            DLL          C:\WINDOWS\system32\msvcrt.dll
+[+]            DLL          C:\WINDOWS\system32\SHLWAPI.dll
+[+]            DLL          C:\WINDOWS\system32\SHELL32.dll
+[+]            DLL          C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\comctl32.dll
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll
+-------------------------------
+System (pid 4)
+OldHandles: 452
+NewHandles: 647
+-------------------------------
+smss.exe (pid 588)
+OldHandles: 19
+NewHandles: 19
+-------------------------------
+csrss.exe (pid 660)
+OldHandles: 491
+NewHandles: 492
+-------------------------------
+winlogon.exe (pid 684)
+OldHandles: 524
+NewHandles: 524
+-------------------------------
+services.exe (pid 736)
+OldHandles: 277
+NewHandles: 278
+-------------------------------
+lsass.exe (pid 748)
+OldHandles: 442
+NewHandles: 435
+[-] 0x404      File         \lsass
+[-] 0x454      File         \lsass
+[-] 0x4b0      File         \lsass
+[+] 0x410      File         \lsass
+-------------------------------
+svchost.exe (pid 904)
+OldHandles: 204
+NewHandles: 201
+[-] 0x158      File         \lsass
+-------------------------------
+svchost.exe (pid 984)
+OldHandles: 271
+NewHandles: 267
+-------------------------------
+svchost.exe (pid 1076)
+OldHandles: 1430
+NewHandles: 1388
+[-] 0x3dc      File         \lsass
+[-] 0x534      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x664      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x784      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xa64      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xaec      File         \WINDOWS\system32\es.dll
+[-] 0xb04      File         \WINDOWS\system32\stdole2.tlb
+[-] 0xcfc      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xdc4      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xf70      File         \WINDOWS\WindowsUpdate.log
+[-] 0xf90      Mutant       \BaseNamedObjects\WindowsUpdateTracingMutex
+[-] 0x10a8     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1114     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1244     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1400     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x15e4     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1620     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1634     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1660     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1664     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0xa74      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0xaf0      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0xb08      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1108     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1114     File         \System Volume Information\tracking.log
+[+] 0x1664     File         \$Extend\$ObjId
+[+] 0x1670     Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-]            DLL          C:\WINDOWS\system32\wuapi.dll
+[-]            DLL          C:\WINDOWS\system32\qmgrprxy.dll
+-------------------------------
+svchost.exe (pid 1124)
+OldHandles: 82
+NewHandles: 81
+-------------------------------
+svchost.exe (pid 1200)
+OldHandles: 173
+NewHandles: 173
+-------------------------------
+iscsiexe.exe (pid 1488)
+OldHandles: 79
+NewHandles: 79
+-------------------------------
+explorer.exe (pid 1672)
+OldHandles: 334
+NewHandles: 383
+[+] 0x2ac      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0x320      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x4bc      Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-1454-2D292F7588C8}
+[+] 0x574      Mutant       \BaseNamedObjects\{2694BBD8-053C-154B-6ED3-BC7255F21993}
+[+] 0x59c      Mutant       \BaseNamedObjects\{2694BBD7-0533-154B-6ED3-BC7255F21993}
+[+] 0x5a4      Mutant       \BaseNamedObjects\{C238BF54-01B0-F1E7-6ED3-BC7255F21993}
+[+] 0x5a8      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x5b4      Mutant       \BaseNamedObjects\RasPbFile
+[+] 0x5cc      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\Tracing\RASAPI32
+[+] 0x5f0      Section      \BaseNamedObjects\SENS Information Cache
+[+] 0x5f8      Mutant       \BaseNamedObjects\{2A786CE2-D206-19A7-6ED3-BC7255F21993}
+[+] 0x5fc      Mutant       \BaseNamedObjects\{2A786CE5-D201-19A7-6ED3-BC7255F21993}
+[+] 0x600      Mutant       \BaseNamedObjects\{4B9EDAF6-6412-7841-6ED3-BC7255F21993}
+[+] 0x618      Mutant       \BaseNamedObjects\{4B9EDAF7-6413-7841-6ED3-BC7255F21993}
+[+] 0x624      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500
+[+] 0x628      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Hardware Profiles\0001
+[+] 0x62c      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+[+] 0x630      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+[+]            DLL          C:\WINDOWS\system32\mswsock.dll
+[+]            DLL          C:\WINDOWS\system32\hnetcfg.dll
+[+]            DLL          C:\WINDOWS\System32\wshtcpip.dll
+[+]            DLL          C:\WINDOWS\system32\RASAPI32.DLL
+[+]            DLL          C:\WINDOWS\system32\rasman.dll
+[+]            DLL          C:\WINDOWS\system32\TAPI32.dll
+[+]            DLL          C:\WINDOWS\system32\sensapi.dll
+[+]            DLL          C:\WINDOWS\system32\DNSAPI.dll
+[+]            DLL          C:\WINDOWS\system32\rsaenh.dll
+[+]            DLL          C:\WINDOWS\system32\rasadhlp.dll
+-------------------------------
+spoolsv.exe (pid 1704)
+OldHandles: 140
+NewHandles: 141
+-------------------------------
+SharedIntApp.exe (pid 1988)
+OldHandles: 60
+NewHandles: 75
+[+] 0xf4       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-5855-2D29637488C8}
+[+] 0x100      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x108      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x10c      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x118      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x120      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0x138      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+-------------------------------
+prl_cc.exe (pid 1996)
+OldHandles: 114
+NewHandles: 172
+[+] 0x1bc      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+[+] 0x1d0      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1d4      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x1dc      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x1e4      Key          \REGISTRY\USER
+[+] 0x1ec      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1f4      Key          \REGISTRY\USER
+[+] 0x1fc      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x204      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x20c      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[+] 0x214      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x21c      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x224      Key          \REGISTRY\USER
+[+] 0x22c      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x234      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[+] 0x23c      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[+] 0x244      Semaphore    \BaseNamedObjects\shell.{090851A5-EB96-11D2-8BE4-00C04FA31A66}
+[+] 0x248      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x250      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x288      Semaphore    \BaseNamedObjects\shell.{7CB834F0-527B-11D2-9D1F-0000F805CA57}
+[+] 0x28c      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts
+[+] 0x294      Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-5055-2D296B7488C8}
+[+] 0x29c      Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x2a0      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x2a4      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x2b0      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x2b8      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+]            DLL          C:\WINDOWS\system32\CLBCATQ.DLL
+[+]            DLL          C:\WINDOWS\system32\COMRes.dll
+[+]            DLL          C:\WINDOWS\System32\cscui.dll
+[+]            DLL          C:\WINDOWS\System32\CSCDLL.dll
+[+]            DLL          C:\WINDOWS\system32\SETUPAPI.dll
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+-------------------------------
+jusched.exe (pid 2032)
+OldHandles: 24
+NewHandles: 39
+[+] 0x64       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-6C55-2D29577488C8}
+[+] 0x78       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x80       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0xa4       Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll
+-------------------------------
+reader_sl.exe (pid 176)
+OldHandles: 27
+NewHandles: 42
+[+] 0x74       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-2C52-2D29177388C8}
+[+] 0x7c       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x84       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x88       File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x94       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x9c       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0xb4       Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll
+-------------------------------
+svchost.exe (pid 500)
+OldHandles: 90
+NewHandles: 90
+-------------------------------
+jqs.exe (pid 572)
+OldHandles: 146
+NewHandles: 146
+-------------------------------
+sqlservr.exe (pid 640)
+OldHandles: 305
+NewHandles: 305
+-------------------------------
+coherence.exe (pid 800)
+OldHandles: 51
+NewHandles: 51
+-------------------------------
+prl_tools_service.exe (pid 116)
+OldHandles: 78
+NewHandles: 78
+-------------------------------
+prl_tools.exe (pid 968)
+OldHandles: 96
+NewHandles: 96
+-------------------------------
+sqlwriter.exe (pid 1064)
+OldHandles: 87
+NewHandles: 84
+-------------------------------
+wmiprvse.exe (pid 1252)
+OldHandles: 160
+NewHandles: 157
+-------------------------------
+wuauclt.exe (pid 1952)
+OldHandles: 336
+NewHandles: 340
+[+] 0x554      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+-------------------------------
+wscntfy.exe (pid 2256)
+OldHandles: 28
+NewHandles: 48
+[+] 0x74       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-4C5A-2D29777B88C8}
+[+] 0x80       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x88       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500
+[+] 0x8c       File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x90       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x9c       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0xa4       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0xbc       Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+] 0xd0       Mutant       \BaseNamedObjects\{4B9EDAF6-6412-7841-6ED3-BC7255F21993}
+[+] 0xd4       Mutant       \BaseNamedObjects\{4B9EDAF7-6413-7841-6ED3-BC7255F21993}
+[+]            DLL          C:\WINDOWS\system32\ole32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\OLEAUT32.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll
+-------------------------------
+wmiprvse.exe (pid 2320)
+OldHandles: 200
+NewHandles: 0
+[-] 0x4        KeyedEvent   \KernelObjects\CritSecOutOfMemoryEvent
+[-] 0x8        Directory    \KnownDlls
+[-] 0xc        File         \WINDOWS\system32
+[-] 0x14       Directory    \Windows
+[-] 0x20       Directory    \BaseNamedObjects
+[-] 0x24       Mutant       \BaseNamedObjects\SHIMLIB_LOG_MUTEX
+[-] 0x28       Key          \REGISTRY\MACHINE
+[-] 0x30       WindowStation \Windows\WindowStations\Service-0x0-3e4$
+[-] 0x34       Desktop      \Default
+[-] 0x38       WindowStation \Windows\WindowStations\Service-0x0-3e4$
+[-] 0x54       Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32
+[-] 0x60       Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32
+[-] 0x64       Semaphore    \BaseNamedObjects\shell.{A48F1A32-A340-11D1-BC6B-00A0C90312E1}
+[-] 0x68       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Locale
+[-] 0x6c       File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[-] 0x70       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Locale\Alternate Sorts
+[-] 0x74       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Language Groups
+[-] 0xa0       Section      \BaseNamedObjects\Wmi Provider Sub System Counters
+[-] 0xbc       Event        \BaseNamedObjects\WBEM_ESS_OPEN_FOR_BUSINESS
+[-] 0xc8       Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xcc       Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0xd4       Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0xdc       Key          \REGISTRY\USER
+[-] 0xe4       Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0xec       Key          \REGISTRY\USER
+[-] 0xf4       Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0xfc       Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0x104      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[-] 0x10c      Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x114      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0x11c      Key          \REGISTRY\USER
+[-] 0x124      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0x12c      Key          \REGISTRY\MACHINE\SOFTWARE\Microsoft\COM3
+[-] 0x134      Key          \REGISTRY\MACHINE\SOFTWARE\Classes\CLSID
+[-] 0x13c      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x140      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x144      Port         \RPC Control\OLE5CA55A5C27064C4DAE447B36248C
+[-] 0x148      Event        \BaseNamedObjects\crypt32LogoffEvent
+[-] 0x158      Event        \BaseNamedObjects\EVENT_READYROOT/CIMV2PROVIDERSUBSYSTEM
+[-] 0x16c      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x174      File         \lsass
+[-] 0x180      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x184      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1a8      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1cc      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1d0      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1dc      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1e0      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1e4      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x1ec      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x25c      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x264      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x26c      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x298      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x2b0      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x2bc      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x308      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x310      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x314      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-] 0x318      Key          \REGISTRY\USER\S-1-5-20_CLASSES
+[-]            DLL          C:\WINDOWS\system32\wbem\wmipcima.dll
+[-]            DLL          C:\WINDOWS\system32\CFGMGR32.DLL
+-------------------------------
+alg.exe (pid 2600)
+OldHandles: 110
+NewHandles: 107
+-------------------------------
+wuauclt.exe (pid 3284)
+OldHandles: 108
+NewHandles: 122
+[+] 0x16c      Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-485E-2D29737F88C8}
+[+] 0x1c0      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500
+[+] 0x1c4      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x1c8      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0x1d4      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x1dc      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0x1f4      Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll
+-------------------------------
+AdobeARM.exe (pid 3768)
+OldHandles: 126
+NewHandles: 136
+[+] 0xe0       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-245C-2D291F7D88C8}
+[+] 0x210      File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0x21c      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0x230      Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0x234      Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+-------------------------------
+cmd.exe (pid 3828)
+OldHandles: 34
+NewHandles: 52
+[+] 0x94       Mutant       \BaseNamedObjects\{79E291DC-2F38-4A3D-685C-2D29537D88C8}
+[+] 0x98       Event        \BaseNamedObjects\crypt32LogoffEvent
+[+] 0x9c       Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\CurrentVersion\Internet Settings
+[+] 0xa0       File         \WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83
+[+] 0xac       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+[+] 0xb4       Key          \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+[+] 0xd8       Semaphore    \BaseNamedObjects\shell.{210A4BA0-3AEA-1069-A2D9-08002B30309D}
+[+]            DLL          C:\WINDOWS\system32\WS2_32.dll
+[+]            DLL          C:\WINDOWS\system32\WS2HELP.dll
+[+]            DLL          C:\WINDOWS\system32\CRYPT32.dll
+[+]            DLL          C:\WINDOWS\system32\MSASN1.dll
+[+]            DLL          C:\WINDOWS\system32\WININET.dll
+[+]            DLL          C:\WINDOWS\system32\NETAPI32.dll

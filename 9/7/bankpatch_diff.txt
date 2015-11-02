@@ -1,0 +1,188 @@
+-------------------------------
+[System Process] (pid 0)
+OldHandles: 0
+NewHandles: 0
+-------------------------------
+System (pid 4)
+OldHandles: 455
+NewHandles: 455
+-------------------------------
+smss.exe (pid 588)
+OldHandles: 19
+NewHandles: 19
+-------------------------------
+csrss.exe (pid 660)
+OldHandles: 433
+NewHandles: 442
+[-] 0x1b0      0x1f03ff   Thread       
+[+] 0x150      0x1f03ff   Thread       
+[+] 0x1b0      0x1f0fff   Process      
+[+] 0x470      0x1f03ff   Thread       
+[+] 0x494      0x1f03ff   Thread       
+[+] 0x5b8      0x1f03ff   Thread       
+[+] 0x5c0      0x1f03ff   Thread       
+[+] 0x67c      0x1f03ff   Thread       
+[+] 0x6e0      0x1f03ff   Thread       
+[+] 0x6fc      0x1f03ff   Thread       
+[+] 0x830      0x1f0001   Port         
+-------------------------------
+winlogon.exe (pid 684)
+OldHandles: 582
+NewHandles: 580
+[-] 0x200      0x160001   File         \WINDOWS\system32
+[-] 0x7fc      0x100020   File         \WINDOWS\system32
+-------------------------------
+services.exe (pid 736)
+OldHandles: 287
+NewHandles: 288
+[+] 0x3e0      0x1f0001   Port         
+-------------------------------
+lsass.exe (pid 748)
+OldHandles: 435
+NewHandles: 431
+[-] 0x2f0      0x1f0003   Event        
+[-] 0x410      0x1f0003   Event        
+[-] 0x43c      0x12019f   File         \lsass
+[-] 0x744      0x12019f   File         \lsass
+-------------------------------
+svchost.exe (pid 904)
+OldHandles: 197
+NewHandles: 197
+-------------------------------
+svchost.exe (pid 984)
+OldHandles: 283
+NewHandles: 289
+[+] 0x238      0x1f0001   Port         
+[+] 0x348      0x1f0003   Event        
+[+] 0x380      0xf01ff    Token        
+[+] 0x3ec      0x1f0001   Port         
+[+] 0x410      0x1f0003   Event        
+[+] 0x424      0x1f0003   Event        
+-------------------------------
+svchost.exe (pid 1076)
+OldHandles: 1357
+NewHandles: 1354
+[-] 0x1a0      0x20019    Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x824      0x20019    Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1274     0x20019    Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[-] 0x1958     0x20019    Key          \REGISTRY\MACHINE\SOFTWARE\Classes
+[+] 0x1274     0x1f0003   Event        
+-------------------------------
+svchost.exe (pid 1124)
+OldHandles: 74
+NewHandles: 74
+-------------------------------
+svchost.exe (pid 1200)
+OldHandles: 172
+NewHandles: 172
+-------------------------------
+iscsiexe.exe (pid 1488)
+OldHandles: 77
+NewHandles: 77
+-------------------------------
+explorer.exe (pid 1672)
+OldHandles: 508
+NewHandles: 498
+[-] 0x198      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x30c      0x12019f   File         \lsass
+[-] 0x320      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x540      0x1f0003   Event        
+[-] 0x6e8      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x724      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x788      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x804      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x80c      0x100001   File         \Documents and Settings\All Users\Start Menu
+[-] 0x84c      0x100001   File         \Documents and Settings\Administrator\Start Menu
+[-] 0x864      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x870      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[-] 0x8b4      0x20006    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\ShellNoRoam\Bags\245\Shell
+[-] 0x8e4      0x12019f   File         \lsass
+[-] 0x8e8      0x1f0003   Event        
+[-] 0x900      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x320      0x100001   File         \Documents and Settings\All Users\Start Menu
+[+] 0x540      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\ShellNoRoam\Bags\12\Shell
+[+] 0x61c      0x20019    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500_CLASSES
+[+] 0x6e8      0x20006    Key          \REGISTRY\USER\S-1-5-21-1659004503-1606980848-682003330-500\Software\Microsoft\Windows\ShellNoRoam\Bags\12\Shell
+[+] 0x804      0x100080   File         
+[+] 0x8b4      0x100001   File         \Documents and Settings\Administrator\Start Menu
+-------------------------------
+spoolsv.exe (pid 1704)
+OldHandles: 135
+NewHandles: 135
+-------------------------------
+SharedIntApp.exe (pid 1988)
+OldHandles: 60
+NewHandles: 60
+-------------------------------
+prl_cc.exe (pid 1996)
+OldHandles: 183
+NewHandles: 183
+-------------------------------
+jusched.exe (pid 2032)
+OldHandles: 88
+NewHandles: 88
+-------------------------------
+svchost.exe (pid 500)
+OldHandles: 88
+NewHandles: 88
+-------------------------------
+jqs.exe (pid 572)
+OldHandles: 146
+NewHandles: 146
+-------------------------------
+sqlservr.exe (pid 640)
+OldHandles: 304
+NewHandles: 305
+[+] 0x4b4      0x1f03ff   Thread       
+-------------------------------
+coherence.exe (pid 800)
+OldHandles: 51
+NewHandles: 51
+-------------------------------
+prl_tools_service.exe (pid 116)
+OldHandles: 78
+NewHandles: 78
+-------------------------------
+prl_tools.exe (pid 968)
+OldHandles: 98
+NewHandles: 98
+-------------------------------
+sqlwriter.exe (pid 1064)
+OldHandles: 82
+NewHandles: 82
+-------------------------------
+wscntfy.exe (pid 2256)
+OldHandles: 28
+NewHandles: 28
+-------------------------------
+alg.exe (pid 2600)
+OldHandles: 107
+NewHandles: 107
+-------------------------------
+wuauclt.exe (pid 3864)
+OldHandles: 109
+NewHandles: 109
+-------------------------------
+AdobeARM.exe (pid 2252)
+OldHandles: 128
+NewHandles: 128
+-------------------------------
+jucheck.exe (pid 2352)
+OldHandles: 104
+NewHandles: 104
+-------------------------------
+SnagIt32.exe (pid 1564)
+OldHandles: 227
+NewHandles: 227
+-------------------------------
+TscHelp.exe (pid 3564)
+OldHandles: 29
+NewHandles: 29
+-------------------------------
+SnagPriv.exe (pid 3660)
+OldHandles: 34
+NewHandles: 34
+-------------------------------
+cmd.exe (pid 216)
+OldHandles: 33
+NewHandles: 33

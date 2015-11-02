@@ -1,0 +1,339 @@
+################################################################
+# Submission Details
+################################################################
+File: 1your_exe.exe
+Size: 21504 bytes
+Type: PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5: faf4b8c32b3f43fbb8fcfd538c1bd86f
+SHA1: 2847703773e04540dce5bc9ba9903e779672aca3
+** RESOURCE entry present!
+** Section .textbss has raw size of zero
+** Section .textbss has -/+ entropy (0.000000)
+** Section .rsrc has -/+ entropy (7.117988)
+** Clamav: 1your_exe.exe: OK
+
+################################################################
+# Antivirus Results
+################################################################
+  Prevx => Medium Risk Malware
+  DrWeb => Trojan.Advload.15
+  GData => Win32:Crypt-GIR 
+  NOD32 => a variant of Win32/Kryptik.EGF
+  Avast => Win32:Crypt-GIR
+  Kaspersky => Packed.Win32.Krap.ao
+  Panda => Suspicious file
+  Sunbelt => Trojan.Win32.Generic.pak!cobra
+  AVG => Cryptic.IG
+  Microsoft => TrojanDownloader:Win32/Harnig.gen!P
+  Avast5 => Win32:Crypt-GIR
+################################################################
+# Memory - Process List
+################################################################
+Name                 Pid    PPid    Time  
+System               4      0       Thu Jan 01 00:00:00 1970  
+smss.exe             612    4       Wed Dec 09 20:29:49 2009  
+csrss.exe            660    612     Wed Dec 09 20:29:50 2009  
+winlogon.exe         684    612     Wed Dec 09 20:29:50 2009  
+services.exe         728    684     Wed Dec 09 20:29:50 2009  
+lsass.exe            740    684     Wed Dec 09 20:29:50 2009  
+vmacthlp.exe         896    728     Wed Dec 09 20:29:51 2009  
+svchost.exe          908    728     Wed Dec 09 20:29:51 2009  
+svchost.exe          992    728     Wed Dec 09 20:29:51 2009  
+svchost.exe          1084   728     Wed Dec 09 20:29:51 2009  
+svchost.exe          1132   728     Wed Dec 09 20:29:51 2009  
+svchost.exe          1192   728     Wed Dec 09 20:29:52 2009  
+spoolsv.exe          1460   728     Wed Dec 09 20:29:53 2009  
+explorer.exe         1736   1712    Wed Dec 09 20:29:58 2009  
+VMwareTray.exe       1828   1736    Wed Dec 09 20:29:59 2009  
+VMwareUser.exe       1836   1736    Wed Dec 09 20:29:59 2009  
+jusched.exe          1888   1736    Wed Dec 09 20:30:00 2009  
+jqs.exe              172    728     Wed Dec 09 20:30:10 2009  
+VMwareService.e      236    728     Wed Dec 09 20:30:10 2009  
+wscntfy.exe          1160   1084    Wed Dec 09 20:30:19 2009  
+alg.exe              1600   728     Wed Dec 09 20:30:19 2009  
+wmiprvse.exe         1036   908     Wed May 26 14:26:11 2010  
+jucheck.exe          476    1888    Wed May 26 14:26:55 2010  
+ivqntxmn.exe         300    1688    Wed May 26 14:26:58 2010  
+qjqfu.exe            1368   1688    Wed May 26 14:27:01 2010  
+rundll32.exe         212    300     Wed May 26 14:27:05 2010  
+bp6x25s.exe          148    216     Wed May 26 14:27:06 2010  
+nvsvc32.exe          1240   208     Wed May 26 14:27:14 2010  
+login.exe            1312   208     Wed May 26 14:27:14 2010  
+2271404242.exe       1144   1736    Wed May 26 14:27:15 2010  
+avp.exe              1336   208     Wed May 26 14:27:15 2010  
+IEXPLORE.EXE         1236   908     Wed May 26 14:27:15 2010  
+setup.exe            1420   552     Wed May 26 14:27:15 2010  
+avp32.exe            1016   208     Wed May 26 14:27:16 2010  
+taskmgr.exe          392    552     Wed May 26 14:27:16 2010  
+install.exe          1936   208     Wed May 26 14:27:17 2010  
+mdm.exe              1348   552     Wed May 26 14:27:18 2010  
+win32.exe            1524   1144    Wed May 26 14:27:21 2010  
+iexplarer.exe        1716   1144    Wed May 26 14:27:22 2010  
+hexdump.exe          1664   1144    Wed May 26 14:27:22 2010  
+wmiprvse.exe         1280   908     Wed May 26 14:27:24 2010  
+vdhtqtftssd.exe      308    808     Wed May 26 14:27:31 2010  
+cmd.exe              460    236     Wed May 26 14:27:46 2010  
+################################################################
+# Memory - Sockets
+################################################################
+Pid    Port   Proto  Create Time               
+1236   1084   6      Wed May 26 14:27:18 2010  
+1192   1900   17     Wed May 26 02:19:09 2010  
+476    1061   6      Wed May 26 14:26:56 2010  
+4      139    6      Wed May 26 02:19:09 2010  
+740    500    17     Wed Dec 09 20:30:10 2009  
+1600   1028   6      Wed Dec 09 20:30:20 2009  
+300    1073   6      Wed May 26 14:27:07 2010  
+4      445    6      Wed Dec 09 20:29:47 2009  
+1240   1081   6      Wed May 26 14:27:15 2010  
+992    135    6      Wed Dec 09 20:29:51 2009  
+1888   1054   6      Wed May 26 14:26:54 2010  
+4      137    17     Wed May 26 02:19:09 2010  
+740    0      255    Wed Dec 09 20:30:10 2009  
+1084   123    17     Wed May 26 02:19:09 2010  
+4      138    17     Wed May 26 02:19:09 2010  
+1132   1041   17     Wed May 26 02:16:03 2010  
+1084   123    17     Wed May 26 02:19:09 2010  
+1132   1053   17     Wed May 26 14:26:54 2010  
+1236   1083   6      Wed May 26 14:27:18 2010  
+1192   1900   17     Wed May 26 02:19:09 2010  
+1236   1086   17     Wed May 26 14:27:27 2010  
+740    4500   17     Wed Dec 09 20:30:10 2009  
+172    5152   6      Wed Dec 09 20:30:10 2009  
+4      445    17     Wed Dec 09 20:29:47 2009  
+148    1076   6      Wed May 26 14:27:07 2010  
+1736   1080   6      Wed May 26 14:27:11 2010  
+################################################################
+# Memory - Connections
+################################################################
+Local Address             Remote Address            Pid   
+192.168.104.129:1083      94.75.233.243:80          1236  
+192.168.104.129:1061      72.246.30.91:80           476   
+192.168.104.129:1084      94.75.233.243:80          1236  
+192.168.104.129:1076      94.75.233.243:80          148   
+192.168.104.129:1080      94.75.233.243:80          1736  
+192.168.104.129:1054      72.246.30.91:80           1888  
+192.168.104.129:1073      94.75.233.243:80          300   
+192.168.104.129:1081      85.17.239.20:80           1240  
+################################################################
+# Memory - Injected Code
+################################################################
+#
+# svchost.exe (Pid: 1192)
+#
+
+[!] Range: 0x771b0000 - 0x77259fff (Tag: Vad , Protection: 0x7)
+PE sections: [.text, .data, .rsrc, .reloc, ]
+
+YARA rule: bankers
+Description: Indicates banker / passwd stealer
+57 00 69 00 6e 00 69 00 6e 00 65 00 74 00 43 00    W.i.n.i.n.e.t.C.
+61 00 63 00 68 00 65 00 43 00 72 00 65 00 64 00    a.c.h.e.C.r.e.d.
+
+#
+# explorer.exe (Pid: 1736)
+#
+
+[!] Range: 0x02210000 - 0x02211fff (Tag: VadS, Protection: 0x6)
+Hexdump:
+e9 d9 01 00 00 4d 79 73 74 69 63 20 43 6f 6d 70    .....Mystic Comp
+72 65 73 73 6f 72 00 e6 0e 00 00 4f 59 0f f1 00    ressor.....OY...
+
+[!] Range: 0x5df10000 - 0x5df6ffff (Tag: Vad , Protection: 0x7)
+PE sections: [.text, .data, .rsrc, .reloc, ]
+
+YARA rule: autorun
+Description: Indicates attempt to spread through autorun
+Hit: [autorun]
+5b 61 75 74 6f 72 75 6e 5d 0d 0a 4f 50 45 4e 3d    [autorun]..OPEN=
+73 65 74 75 70 53 4e 4b 2e 65 78 65 0d 0a 49 43    setupSNK.exe..IC
+
+#
+# IEXPLORE.EXE (Pid: 1236)
+#
+
+[!] Range: 0x00e00000 - 0x00e00fff (Tag: VadS, Protection: 0x6)
+Hexdump:
+8b ff 55 8b ec e9 f5 68 cb 70 00 00 00 00 00 00    ..U....h.p......
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+
+Disassembly:
+0x00e00000   mov edi,edi
+0x00e00002   push ebp
+0x00e00003   mov ebp,esp
+0x00e00005   jmp 0x71ab68fa
+
+[!] Range: 0x00df0000 - 0x00df0fff (Tag: VadS, Protection: 0x6)
+Hexdump:
+8b ff 55 8b ec e9 6a 67 cc 70 00 00 00 00 00 00    ..U...jg.p......
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+
+Disassembly:
+0x00df0000   mov edi,edi
+0x00df0002   push ebp
+0x00df0003   mov ebp,esp
+0x00df0005   jmp 0x71ab676f
+
+#
+# vdhtqtftssd.exe (Pid: 308)
+#
+
+[!] Range: 0x00400000 - 0x00478fff (Tag: Vad , Protection: 0x7)
+PE sections: [.text, .rsrc, .reloc, ]
+
+YARA rule: fakeav
+Description: Indicates fake antivirus program
+Hit: AntiVirus_Pro
+41 6e 74 69 56 69 72 75 73 5f 50 72 6f 2e 65 78    AntiVirus_Pro.ex
+65 22 2c 20 22 57 69 6e 33 32 2f 46 61 6b 65 41    e", "Win32/FakeA
+################################################################
+# Memory - API Hooks
+################################################################
+Type     Process          PID    Hooked Function   From => To/Instruction   
+INLINE   IEXPLORE.EXE     1236   WSARecv           0x71ab4cb5 => jmp 0xdd6597              
+INLINE   IEXPLORE.EXE     1236   WSASend           0x71ab68fa => jmp 0xdd64fd              
+INLINE   IEXPLORE.EXE     1236   closesocket       0x71ab3e2b => jmp 0xdd6691              
+INLINE   IEXPLORE.EXE     1236   recv              0x71ab676f => jmp 0xdd6446              
+INLINE   IEXPLORE.EXE     1236   send              0x71ab4c27 => jmp 0xdd63d3              
+################################################################
+# Network Traffic
+################################################################
+192.168.1.127 -> 8.8.8.8      DNS Standard query A aahydrogen.com
+192.168.1.127 -> 8.8.8.8      DNS Standard query A bastocks.com
+8.8.8.8 -> 192.168.1.127 DNS Standard query response A 195.2.252.156
+192.168.1.127 -> 195.2.252.156 TCP 39827 > http [SYN] Seq=0 Win=5840 Len=0 
+192.168.1.127 -> 195.2.252.156 TCP 37449 > http [SYN] Seq=0 Win=5840 Len=0
+[REMOVED]
+===================================================================
+Protocol Hierarchy Statistics
+Filter: frame
+
+frame                                    frames:1094 bytes:619914
+  eth                                    frames:1094 bytes:619914
+    ip                                   frames:1093 bytes:619854
+      udp                                frames:25 bytes:2295
+        dns                              frames:18 bytes:1629
+        data                             frames:1 bytes:114
+        nbns                             frames:6 bytes:552
+      tcp                                frames:1068 bytes:617559
+        http                             frames:55 bytes:13790
+          data-text-lines                frames:6 bytes:1727
+        tcp.segments                     frames:11 bytes:11873
+          http                           frames:11 bytes:11873
+            xml                          frames:4 bytes:4736
+            data-text-lines              frames:7 bytes:7137
+    arp                                  frames:1 bytes:60
+===================================================================
+ IP Addresses            value	        rate	     percent
+-------------------------------------------------------------------
+ IP Addresses            1093       0.042051                
+  192.168.1.127           1086       0.041782          99.36%
+  8.8.8.8                   18       0.000693           1.65%
+  72.246.30.91              49       0.001885           4.48%
+  195.2.252.152            786       0.030240          71.91%
+  195.2.252.156             73       0.002809           6.68%
+  192.168.1.112              7       0.000269           0.64%
+  255.255.255.255            1       0.000038           0.09%
+  173.208.162.2              3       0.000115           0.27%
+  94.75.233.243            138       0.005309          12.63%
+  192.168.1.255              6       0.000231           0.55%
+  85.17.239.20               9       0.000346           0.82%
+  91.188.60.10              10       0.000385           0.91%
+===================================================================
+ HTTP/Requests                               value	  rate	     percent
+--------------------------------------------
+ HTTP Requests by HTTP Host                  33       0.001342                
+  aahydrogen.com                             14       0.000569    42.42%
+   /ufwnltbz/wzdcjrp.php?adv=adv448           1       0.000041     7.14%
+   /ufwnltbz/fwelcx.php?adv=adv448            1       0.000041     7.14%
+   /ufwnltbz/oriqbjdp.php?adv=adv448          1       0.000041     7.14%
+   /ufwnltbz/yptozgozmu.php?adv=adv448        1       0.000041     7.14%
+   /ufwnltbz/hyfahpxiq.php?adv=adv448         1       0.000041     7.14%
+   /ufwnltbz/imwaic.php?adv=adv448            1       0.000041     7.14%
+   /ufwnltbz/fjnvpk.php?adv=adv448            1       0.000041     7.14%
+   /ufwnltbz/hypwhc.php?adv=adv448            1       0.000041     7.14%
+   /ufwnltbz/rvqxfn.php?adv=adv448            1       0.000041     7.14%
+   /ufwnltbz/kkemu.php?adv=adv448             1       0.000041     7.14%
+   /ufwnltbz/fwevpovto.php?adv=adv448         1       0.000041     7.14%
+   /ufwnltbz/gnemtrzxsn.php?adv=adv448        1       0.000041     7.14%
+  bastocks.com                                7       0.000285    21.21%
+   /ufwnltbz/fwelcx.php?adv=adv448            1       0.000041    14.29%
+   /ufwnltbz/wzdcjrp.php?adv=adv448           1       0.000041    14.29%
+   /ufwnltbz/imwaic.php?adv=adv448            1       0.000041    14.29%
+   /ufwnltbz/fjnvpk.php?adv=adv448            1       0.000041    14.29%
+   /ufwnltbz/fwevpovto.php?adv=adv448         1       0.000041    14.29%
+   /ufwnltbz/gnemtrzxsn.php?adv=adv448        1       0.000041    14.29%
+  indll.info                                  1       0.000041     3.03%
+   /mn/mn.php?ver=H1                          1       0.000041   100.00%
+################################################################
+# Snort IDS Alerts
+################################################################
+[**] [1:2009897:2] ET MALWARE Possible Windows executable sent \
+     when remote host claims to send html content [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+05/26-10:26:55.670811 195.2.252.152:80 -> 192.168.1.127:48705
+TCP TTL:56 TOS:0x0 ID:17993 IpLen:20 DgmLen:1420 DF
+***A**** Seq: 0x6AC56FDE  Ack: 0x90903E02  Win: 0x1920  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/2009897]
+
+[**] [1:2000419:12] ET POLICY PE EXE or DLL Windows file download [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+05/26-10:26:55.670811 195.2.252.152:80 -> 192.168.1.127:48705
+TCP TTL:56 TOS:0x0 ID:17993 IpLen:20 DgmLen:1420 DF
+***A**** Seq: 0x6AC56FDE  Ack: 0x90903E02  Win: 0x1920  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+################################################################
+# Registry Changes
+################################################################
+ADDED	HKLM\Software\avsuite 
+ADDED	HKLM\Software\Policies\Microsoft\Windows NT\SystemRestore 
+NEWER	HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+ADDED	HKLM\Software\avsoft
+NEWER	HKLM\Software\Classes\CLSID 
+NEWER	HKCU\Software\Microsoft\Windows\CurrentVersion\Run 
+NEWER	HKCU\Software\Microsoft\Internet Explorer\Toolbar 
+ADDED	HKCU\Software\Microsoft\Internet Explorer\Toolbar\ShellBrowser
+ADDED	HKCU\Software\Microsoft\Internet Explorer\Toolbar\Explorer 
+ADDED	HKCU\Software\Microsoft\Internet Explorer\PhishingFilter 
+NEWER	HKCU\Software\Microsoft\Internet Explorer\Download 
+[REMVOED]
+################################################################
+# Deleted Files
+################################################################
+C:\\Documents and Settings\Administrator\Cookies\administrator@fastclick[2].txt
+C:\\Documents and Settings\Administrator\Cookies\administrator@trackalyzer[1].txt
+C:\\Documents and Settings\Administrator\Cookies\administrator@google[2].txt
+C:\\Documents and Settings\Administrator\Cookies\administrator@m.webtrends[1].txt
+C:\\Documents and Settings\Administrator\Cookies\administrator@microsoft[1].txt
+[REMVOED]
+###########################################################################
+# Created Files
+###########################################################################
+C:\\feed.txt
+C:\\Documents and Settings\Administrator\Cookies\administrator@cardsvr[2].txt
+C:\\Documents and Settings\Administrator\Local Settings\Temp\2224841742.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\2271404242.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\avp.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\avp32.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\bp6x25s.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\c25b80hmhpr8vxx.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\hexdump.exe
+C:\\Documents and Settings\Administrator\Local Settings\Temp\iexplarer.exe
+C:\\WINDOWS\Prefetch\1YOUR_EXE.EXE-031C6881.pf
+C:\\WINDOWS\Prefetch\VDHTQTFTSSD.EXE-32FED340.pf
+C:\\WINDOWS\Prefetch\XJGAL.EXE-07C2100F.pf
+C:\\WINDOWS\Prefetch\LVMRBIV.EXE-0EBDEFB2.pf
+C:\\WINDOWS\Prefetch\LOAG.EXE-05474EA8.pf
+C:\\WINDOWS\Prefetch\LOGIN.EXE-0178E3D0.pf
+C:\\WINDOWS\Prefetch\QJQFU.EXE-25AD6662.pf
+C:\\WINDOWS\Prefetch\REGSVR32.EXE-25EEFE2F.pf
+C:\\WINDOWS\Prefetch\RUNDLL32.EXE-173ACD25.pf
+C:\\WINDOWS\Prefetch\IEXPLARER.EXE-23A6FDF3.pf
+C:\\WINDOWS\Prefetch\IVQNTXMN.EXE-1AD35845.pf
+C:\\WINDOWS\Prefetch\J6F36O2.EXE-08A48591.pf
+C:\\WINDOWS\system32\en70x32o.dll
+[REMOVED]
+###########################################################################
+# Master Boot Record
+###########################################################################
+MBR MD5 hash: 9b11ddcdbb088f6b23b7bd59bf03597e
